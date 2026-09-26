@@ -1,0 +1,179 @@
+{
+  "name": "Eterna Tech",
+  "tagline": "Solutions technologiques innovantes",
+  "slogan": "Solutions technologiques innovantes pour les entreprises de demain.",
+  "nav": [
+    { "label": "Accueil", "href": "/" },
+    { "label": "Services", "href": "/services" },
+    { "label": "Solutions", "href": "/solutions" },
+    { "label": "À propos", "href": "/a-propos" },
+    { "label": "Contact", "href": "/contact" }
+  ],
+  "hero": {
+    "badge": "L'INNOVATION AU SERVICE DE VOTRE CROISSANCE",
+    "titleLine1": "Innovation Technologique",
+    "titleLine2Start": "pour un Avenir ",
+    "titleLine2Accent": "Durable",
+    "description": [
+      { "text": "Découvrez des solutions technologiques avancées pour " },
+      { "text": "transformer votre entreprise", "strong": true },
+      { "text": " et vous propulser vers l'avenir." }
+    ],
+    "primaryCta": { "label": "Nos Solutions", "href": "/solutions" },
+    "secondaryCta": { "label": "En savoir plus", "href": "/a-propos" }
+  },
+  "contact": {
+    "badge": "Parlons de votre projet",
+    "title": "Contactez-",
+    "titleAccent": "nous",
+    "subtitle": "Une question, un projet, une demande de démonstration ? Notre équipe vous répond sous 48 heures ouvrées.",
+    "addressLines": [
+      "I2E Student Center, Bureau N°3",
+      "Université de Tlemcen",
+      "Tlemcen 13000, Algérie"
+    ],
+    "phone": "+213 659 793 110",
+    "phoneLink": "tel:+213659793110",
+    "whatsapp": "https://wa.me/213659793110",
+    "email": "contact@eternatech.net",
+    "mapsUrl": "https://maps.app.goo.gl/747TNwyxx69ab8327",
+    "mapsEmbedUrl": "https://www.google.com/maps?q=I2E%20Student%20Center%20Universit%C3%A9%20de%20Tlemcen&output=embed",
+    "hours": "Dimanche – Jeudi, 9h00 – 17h00 (UTC+1)",
+    "subjects": [
+      "Demande de devis",
+      "Demande de démonstration Amane Trig",
+      "Développement web ou mobile",
+      "Intelligence artificielle",
+      "Formation IT",
+      "Label Startup / Projet innovant",
+      "Réseaux domestiques",
+      "Partenariat",
+      "Autre demande"
+    ]
+  },
+  "footer": {
+    "newsletter": {
+      "badge": "VOTRE PARTENAIRE TECHNOLOGIQUE",
+      "titleLines": [
+        "Nos actualités,",
+        "projets et conseils tech,",
+        "directement dans votre boîte mail."
+      ],
+      "consent": "En vous abonnant, vous acceptez de recevoir nos e-mails et notre politique de confidentialité. Désinscription possible à tout moment."
+    },
+    "columns": [
+      {
+        "title": "LIENS RAPIDES",
+        "links": [
+          { "label": "Accueil", "href": "/" },
+          { "label": "Services", "href": "/services" },
+          { "label": "Solutions", "href": "/solutions" },
+          { "label": "À propos", "href": "/a-propos" },
+          { "label": "Contact", "href": "/contact" }
+        ]
+      },
+      {
+        "title": "SERVICES",
+        "links": [
+          { "label": "Développement Web", "href": "/services/developpement-web" },
+          { "label": "Applications Mobiles", "href": "/services/applications-mobiles" },
+          { "label": "Formation IT", "href": "/services/formation-it" },
+          { "label": "IA & Machine Learning", "href": "/services/ia-machine-learning" },
+          { "label": "Modélisation 3D & Prototypage", "href": "/services/modelisation-3d" },
+          { "label": "Voir tous les services", "href": "/services" }
+        ]
+      }
+    ],
+    "contactTitle": "CONTACT",
+    "mapsLinkLabel": "Voir sur Google Maps",
+    "location": "Tlemcen, Algérie",
+    "legalLinks": [
+      { "label": "Mentions légales", "href": "/mentions-legales" },
+      { "label": "Politique de confidentialité", "href": "/politique-confidentialite" }
+    ]
+  },
+  "social": [
+    { "label": "Instagram", "href": "https://www.instagram.com/eternaltech3", "icon": "instagram" },
+    { "label": "Facebook", "href": "https://www.facebook.com/share/17UChGf4Vc/", "icon": "facebook" },
+    { "label": "TikTok", "href": "https://www.tiktok.com/@eterna.tech", "icon": "tiktok" },
+    {
+      "label": "LinkedIn",
+      "href": "https://dz.linkedin.com/company/eterna-tech13",
+      "icon": "linkedin"
+    },
+    { "label": "WhatsApp", "href": "https://wa.me/213659793110", "icon": "whatsapp" }
+  ],
+  "legal": {
+    "notice": {
+      "title": "Mentions légales",
+      "seoDescription": "Mentions légales du site eternatech.net : éditeur, hébergeur, propriété intellectuelle et responsabilité.",
+      "sections": [
+        {
+          "title": "Éditeur du site",
+          "body": "Le site eternatech.net est édité par Eterna Tech (Eternal Technologies), entreprise de solutions technologiques établie au I2E Student Center, Bureau N°3, Université de Tlemcen, Tlemcen 13000, Algérie. Téléphone : +213 659 793 110. E-mail : contact@eternatech.net. Les mentions d'identification légale complètes (forme juridique, numéro d'identification, capital, responsable de la publication) sont à compléter par Eterna Tech avant la mise en ligne."
+        },
+        {
+          "title": "Hébergement",
+          "body": "Le site est hébergé sur une infrastructure compatible Vercel avec diffusion par CDN. Le nom de l'hébergeur définitif et ses coordonnées seront précisés une fois le choix d'hébergement arrêté."
+        },
+        {
+          "title": "Propriété intellectuelle",
+          "body": "L'ensemble des contenus du site — textes, visuels, logos, marques Eterna Tech et Amane Trig, code source — est protégé. Toute reproduction ou représentation, totale ou partielle, sans autorisation écrite préalable d'Eterna Tech est interdite."
+        },
+        {
+          "title": "Responsabilité",
+          "body": "Eterna Tech s'efforce de fournir des informations exactes et à jour, sans garantir l'exhaustivité des contenus publiés. Les liens vers des sites tiers sont fournis à titre indicatif : Eterna Tech n'exerce aucun contrôle sur leur contenu."
+        },
+        {
+          "title": "Contact",
+          "body": "Pour toute question relative au site ou à ces mentions légales, écrivez à contact@eternatech.net."
+        }
+      ]
+    },
+    "privacy": {
+      "title": "Politique de confidentialité",
+      "seoDescription": "Politique de confidentialité d'Eterna Tech : données collectées, finalités, durée de conservation, cookies et droits des personnes.",
+      "sections": [
+        {
+          "title": "Données que nous collectons",
+          "body": "Formulaire de contact : nom complet, adresse e-mail, téléphone et entreprise (facultatifs), sujet et message. Inscription à la newsletter : adresse e-mail. Mesure d'audience : données de navigation agrégées, uniquement après votre consentement."
+        },
+        {
+          "title": "Finalités",
+          "body": "Vos données servent exclusivement à répondre à votre demande, à vous envoyer nos actualités si vous y avez consenti, et à améliorer le site. Elles ne sont ni vendues ni cédées à des tiers à des fins publicitaires."
+        },
+        {
+          "title": "Durée de conservation",
+          "body": "Les demandes de contact sont conservées 24 mois après le dernier échange. Les adresses e-mail de la newsletter sont conservées jusqu'à votre désinscription. Les statistiques de navigation sont conservées 14 mois au maximum."
+        },
+        {
+          "title": "Cookies",
+          "body": "Le site n'installe aucun cookie de mesure ou de suivi avant votre accord. Seuls les cookies strictement nécessaires (préférence de langue, mémorisation de votre choix de consentement) sont déposés par défaut. La carte Google Maps n'est chargée qu'après acceptation des cookies tiers."
+        },
+        {
+          "title": "Sécurité",
+          "body": "Le site est servi exclusivement en HTTPS, avec des en-têtes de sécurité (CSP, HSTS) et une protection anti-spam des formulaires. L'accès aux messages reçus est réservé aux personnes habilitées chez Eterna Tech."
+        },
+        {
+          "title": "Vos droits",
+          "body": "Vous pouvez demander l'accès, la rectification ou la suppression de vos données, ainsi que vous opposer à leur traitement, en écrivant à contact@eternatech.net. Nous répondons dans un délai maximum de 30 jours."
+        }
+      ]
+    }
+  },
+  "seo": {
+    "homeTitle": "Eterna Tech — Solutions technologiques innovantes à Tlemcen",
+    "homeDescription": "Eterna Tech conçoit des solutions technologiques innovantes en Algérie : développement web et mobile, intelligence artificielle, design, formation IT, réseaux. Découvrez Amane Trig, notre solution de sécurité routière par IA.",
+    "defaultTitleTemplate": "%s | Eterna Tech",
+    "keywords": [
+      "Eterna Tech",
+      "solutions technologiques Algérie",
+      "développement web Tlemcen",
+      "application mobile Algérie",
+      "intelligence artificielle Algérie",
+      "label startup Algérie",
+      "sécurité routière IA",
+      "Amane Trig"
+    ]
+  }
+}

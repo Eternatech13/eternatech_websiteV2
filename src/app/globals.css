@@ -1,0 +1,261 @@
+@import 'tailwindcss';
+
+/* ==========================================================================
+   Charte graphique Eterna Tech — cahier des charges § 5
+   Principale #1372a2 · Secondaire #0b305a · Accent #388caf
+   Aucune couleur violette, verte ou orange des composants d'inspiration ne
+   subsiste ; seule exception : --color-alert (carte Amane Trig, § 8.4).
+
+   Limite d'usage de l'accent, vérifiée par le calcul des contrastes :
+   #388caf plafonne à 3,5:1 sur #0b305a, 4,4:1 sur #071f3b et 3,8:1 sur blanc.
+   Il est donc réservé aux grands titres, bordures, icônes, puces et éléments
+   décoratifs (seuil 3:1). Pour du texte courant, utiliser #1372a2 sur fond
+   clair (5,3:1) ou --color-on-dark sur fond sombre.
+   ========================================================================== */
+
+@theme {
+  --color-primary: #1372a2;
+  --color-primary-600: #10648f;
+  --color-primary-700: #0d5578;
+  --color-secondary: #0b305a;
+  --color-secondary-700: #092647;
+  --color-secondary-900: #071f3b;
+  --color-accent: #388caf;
+  --color-accent-300: #7cb6cf;
+
+  /* Fond de la section Services : blanc cassé teinté de bleu (#0b305a à 3 %) */
+  --color-surface: #f7f9fb;
+
+  /* ----------------------------------------------------------------------
+     Texte secondaire sur fond sombre — point laissé ouvert au § 5, tranché
+     ici en faveur d'une échelle claire à deux niveaux. Ratios de contraste
+     calculés selon la formule de luminance relative WCAG 2.1 :
+       #cbd5e1 → 8,9:1 sur #0b305a  ·  11,2:1 sur #071f3b
+       #94a3b8 → 5,2:1 sur #0b305a  ·   6,5:1 sur #071f3b
+     Les deux niveaux dépassent le seuil AA de 4,5:1 pour le texte courant.
+     ---------------------------------------------------------------------- */
+  --color-on-dark: #cbd5e1;
+  --color-on-dark-muted: #94a3b8;
+
+  /* Couleur d'alerte, seule exception à la palette (§ 8.4) */
+  --color-alert: #e2701f;
+  --color-alert-600: #c25c14;
+
+  /* Inter est la police du site actuel : conservée pour la continuité (§ 5).
+     La police arabe est chargée séparément (§ 11 — typographie arabe). */
+  --font-sans: var(--font-latin), ui-sans-serif, system-ui, -apple-system, 'Segoe UI', sans-serif;
+  --font-arabic: var(--font-arabic-sans), var(--font-latin), ui-sans-serif, system-ui, sans-serif;
+
+  /* Coins arrondis 8 à 12 px (§ 5) */
+  --radius-brand: 10px;
+  --radius-card: 16px;
+
+  --shadow-brand: 0 18px 40px -18px rgb(11 48 90 / 0.35);
+  --shadow-brand-lg: 0 30px 60px -20px rgb(11 48 90 / 0.45);
+
+  --animate-float-slow: float-slow 7s ease-in-out infinite;
+}
+
+@keyframes float-slow {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-8px);
+  }
+}
+
+/* Apparition de la Hero : fondu + glissement + flou qui disparaît (§ 6.3).
+   Réalisée en CSS et non en JavaScript, pour deux raisons : le contenu de la
+   Hero est l'élément le plus grand de la page (LCP, § 11) et ne doit pas
+   attendre l'hydratation, et il reste visible même si aucun script ne
+   s'exécute. `both` conserve l'état final, donc le texte reste lisible quand
+   l'utilisateur a demandé de réduire les animations. */
+@keyframes reveal-in {
+  from {
+    opacity: 0;
+    transform: translateX(calc(-30px * var(--reveal-direction)));
+    filter: blur(5px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+    filter: blur(0);
+  }
+}
+
+/* --------------------------------------------------------------------------
+   Variantes de direction — le site est publié en FR / EN (LTR) et AR (RTL)
+   -------------------------------------------------------------------------- */
+@custom-variant rtl (&:where([dir='rtl'], [dir='rtl'] *));
+@custom-variant ltr (&:where([dir='ltr'], [dir='ltr'] *));
+
+:root {
+  /* Le dégradé de marque suit le sens de lecture (§ 11 — éléments inversés) */
+  --brand-gradient-direction: to right;
+  /* Sens du glissement des animations, inversé en arabe */
+  --reveal-direction: 1;
+}
+
+[dir='rtl'] {
+  --brand-gradient-direction: to left;
+  --reveal-direction: -1;
+}
+
+/* --------------------------------------------------------------------------
+   Utilitaires de marque
+   -------------------------------------------------------------------------- */
+
+/* Dégradé de marque #0b305a → #1372a2 → #388caf (§ 5) */
+@utility bg-brand-gradient {
+  background-image: linear-gradient(
+    var(--brand-gradient-direction),
+    var(--color-secondary),
+    var(--color-primary),
+    var(--color-accent)
+  );
+}
+
+/* Dégradé court utilisé pour les tuiles d'icônes et la frise du processus */
+@utility bg-brand-gradient-short {
+  background-image: linear-gradient(
+    var(--brand-gradient-direction),
+    var(--color-primary),
+    var(--color-accent)
+  );
+}
+
+/* Mot accentué des titres : #1372a2 → #388caf (§ 6.2) */
+@utility text-brand-gradient {
+  background-image: linear-gradient(
+    var(--brand-gradient-direction),
+    var(--color-primary),
+    var(--color-accent)
+  );
+  background-clip: text;
+  color: transparent;
+  -webkit-text-fill-color: transparent;
+}
+
+/* Titres sur fond sombre : #388caf → blanc (§ 9.5) */
+@utility text-brand-gradient-light {
+  background-image: linear-gradient(
+    var(--brand-gradient-direction),
+    var(--color-accent),
+    #ffffff
+  );
+  background-clip: text;
+  color: transparent;
+  -webkit-text-fill-color: transparent;
+}
+
+/* Trame de points du footer — blanc à 7 % (§ 10.4) */
+@utility bg-dot-grid {
+  background-image: radial-gradient(rgb(255 255 255 / 0.07) 1px, transparent 1px);
+  background-size: 22px 22px;
+}
+
+/* Apparition en CSS, utilisée par la Hero. Le décalage est passé en style
+   inline pour échelonner les éléments (0,15 s entre eux, § 6.3). */
+@utility reveal-css {
+  animation: reveal-in 0.85s cubic-bezier(0.22, 1, 0.36, 1) both;
+}
+
+/* Conteneur de page commun */
+@utility container-page {
+  width: 100%;
+  margin-inline: auto;
+  max-width: 1280px;
+  padding-inline: 1.5rem;
+  @media (width >= 768px) {
+    padding-inline: 2.5rem;
+  }
+  @media (width >= 1024px) {
+    padding-inline: 3.5rem;
+  }
+}
+
+/* --------------------------------------------------------------------------
+   Base
+   -------------------------------------------------------------------------- */
+@layer base {
+  * {
+    border-color: color-mix(in oklab, var(--color-secondary) 12%, transparent);
+  }
+
+  html {
+    scroll-behavior: smooth;
+    -webkit-text-size-adjust: 100%;
+  }
+
+  body {
+    background-color: #ffffff;
+    color: var(--color-secondary);
+    font-family: var(--font-sans);
+    -webkit-font-smoothing: antialiased;
+  }
+
+  /* Typographie arabe dédiée (§ 11) */
+  [lang='ar'] body,
+  [lang='ar'] {
+    font-family: var(--font-arabic);
+  }
+
+  ::selection {
+    background-color: color-mix(in oklab, var(--color-accent) 30%, transparent);
+    color: inherit;
+  }
+
+  /* Anneau de focus visible sur toute la plateforme (§ 7.2, WCAG 2.1 AA) */
+  :focus-visible {
+    outline: 2px solid var(--color-accent);
+    outline-offset: 2px;
+    border-radius: 4px;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4 {
+    text-wrap: balance;
+  }
+
+  p {
+    text-wrap: pretty;
+  }
+}
+
+/* Respect de prefers-reduced-motion pour toutes les animations (§ 11) */
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+  }
+}
+
+/* Lien d'évitement (accessibilité clavier) */
+.skip-link {
+  position: absolute;
+  inset-inline-start: 1rem;
+  top: -4rem;
+  z-index: 100;
+  border-radius: var(--radius-brand);
+  background-color: var(--color-primary);
+  padding: 0.65rem 1.1rem;
+  font-size: 0.875rem;
+  font-weight: 500;
+  color: #ffffff;
+  transition: top 0.2s ease;
+}
+
+.skip-link:focus {
+  top: 1rem;
+}

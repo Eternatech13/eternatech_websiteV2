@@ -1,0 +1,161 @@
+{
+  "common": {
+    "skipToContent": "Aller au contenu principal",
+    "brandLogoAlt": "Logo Eterna Tech",
+    "homeLinkLabel": "Eterna Tech — retour à l'accueil",
+    "contactCta": "Contactez-nous",
+    "learnMore": "En savoir plus",
+    "readMore": "En savoir plus",
+    "discover": "Découvrir",
+    "back": "Retour",
+    "openMenu": "Ouvrir le menu de navigation",
+    "closeMenu": "Fermer le menu",
+    "mainNavigation": "Navigation principale",
+    "viewAllServices": "Voir tous nos services",
+    "seeOnMaps": "Voir sur Google Maps",
+    "callUs": "Appeler Eterna Tech",
+    "writeToUs": "Écrire à Eterna Tech",
+    "whatsapp": "Écrire sur WhatsApp",
+    "required": "obligatoire",
+    "illustrativeData": "Données de démonstration, fournies à titre d'illustration."
+  },
+  "language": {
+    "label": "Langue",
+    "switcherLabel": "Choisir la langue du site",
+    "current": "Langue actuelle : {language}",
+    "suggestionTitle": "Ce site est aussi disponible en {language}",
+    "suggestionAccept": "Afficher en {language}",
+    "suggestionDismiss": "Rester en français"
+  },
+  "breadcrumb": {
+    "label": "Fil d'Ariane",
+    "home": "Accueil"
+  },
+  "hero": {
+    "socialLabel": "Réseaux sociaux d'Eterna Tech",
+    "keyFiguresLabel": "Chiffres clés d'Eterna Tech",
+    "scrollHint": "Faire défiler"
+  },
+  "services": {
+    "pageTitle": "Nos Services",
+    "pageIntro": "Treize services pour couvrir l'ensemble de vos besoins technologiques, du développement à la formation.",
+    "categoryLabel": "Catégorie",
+    "processTitle": "Notre Processus",
+    "processSubtitle": "De la première consultation au support continu.",
+    "featuresTitle": "Ce que comprend ce service",
+    "includesTitle": "Prestations incluses",
+    "includesNote": "Ces prestations sont indicatives ; elles sont confirmées dans la proposition commerciale.",
+    "stepAria": "Étape {number} sur {total}",
+    "relatedTitle": "Autres services qui pourraient vous intéresser",
+    "ctaTitle": "Parlons de votre projet",
+    "ctaBody": "Décrivez-nous votre besoin : nous revenons vers vous avec une proposition claire et un calendrier réaliste.",
+    "ctaButton": "Nous contacter",
+    "cardLinkAria": "En savoir plus sur le service {name}"
+  },
+  "solutions": {
+    "pageTitle": "Nos Solutions",
+    "badgePrefix": "Solution",
+    "featuresLabel": "Fonctionnalités de {name}",
+    "specsTitle": "En bref",
+    "audienceTitle": "Pour qui ?",
+    "demoCta": "Demander une démonstration",
+    "dashboardCaption": "Aperçu de l'interface",
+    "expertiseUsedIn": "Utilisée dans :",
+    "keyPointsLabel": "Points clés",
+    "capabilitiesTitle": "Fonctionnalités",
+    "howItWorksTitle": "Comment ça marche",
+    "benefitsTitle": "Bénéfices",
+    "benefitsNote": "Chiffres communiqués par Eterna Tech, à confirmer par une source avant publication."
+  },
+  "about": {
+    "pageTitle": "À propos",
+    "figuresLabel": "Chiffres clés",
+    "missionLabel": "Notre mission et nos valeurs",
+    "approachLabel": "Notre approche",
+    "ctaTitle": "Parlons de votre projet",
+    "ctaBody": "Un besoin technologique, une idée à cadrer, une formation à organiser ? Écrivez-nous.",
+    "ctaButton": "Aller à la page Contact",
+    "teamLinkedin": "Profil LinkedIn de {name}"
+  },
+  "contact": {
+    "pageTitle": "Contact",
+    "formTitle": "Envoyez-nous un message",
+    "formIntro": "Les champs marqués d'un astérisque sont obligatoires.",
+    "fields": {
+      "name": "Nom complet",
+      "email": "Email",
+      "phone": "Téléphone",
+      "company": "Entreprise",
+      "subject": "Sujet",
+      "message": "Message"
+    },
+    "placeholders": {
+      "name": "Amine Benali",
+      "email": "vous@entreprise.com",
+      "phone": "+213 6 00 00 00 00",
+      "company": "Nom de votre entreprise",
+      "subject": "Choisissez un sujet",
+      "message": "Décrivez votre besoin en quelques lignes."
+    },
+    "optional": "facultatif",
+    "submit": "Envoyer le message",
+    "submitting": "Envoi en cours…",
+    "success": "Merci, votre message est bien arrivé. Nous vous répondons sous 48 heures ouvrées. Un e-mail de confirmation vient de vous être envoyé.",
+    "error": "L'envoi a échoué. Réessayez dans un instant ou écrivez-nous directement à {email}.",
+    "errors": {
+      "name": "Indiquez votre nom complet (2 caractères minimum).",
+      "email": "Indiquez une adresse e-mail valide.",
+      "phone": "Le numéro de téléphone n'est pas valide.",
+      "subject": "Choisissez un sujet.",
+      "message": "Votre message doit contenir au moins 20 caractères.",
+      "captcha": "Merci de confirmer que vous n'êtes pas un robot.",
+      "rateLimit": "Trop de tentatives. Patientez une minute avant de réessayer."
+    },
+    "captchaLabel": "Vérification anti-spam",
+    "infoTitle": "Coordonnées",
+    "addressLabel": "Adresse",
+    "phoneLabel": "Téléphone",
+    "emailLabel": "E-mail",
+    "hoursLabel": "Horaires",
+    "mapTitle": "Nous situer",
+    "mapConsent": "La carte Google Maps est chargée depuis un service tiers. Acceptez les cookies tiers pour l'afficher.",
+    "mapConsentButton": "Afficher la carte",
+    "mapFrameTitle": "Carte de localisation des bureaux d'Eterna Tech à Tlemcen"
+  },
+  "newsletter": {
+    "emailLabel": "Votre adresse e-mail",
+    "emailPlaceholder": "Votre adresse e-mail",
+    "submit": "S'abonner",
+    "submitting": "Inscription…",
+    "success": "Inscription confirmée. Merci pour votre confiance.",
+    "error": "L'inscription a échoué. Vérifiez votre adresse et réessayez.",
+    "invalidEmail": "Indiquez une adresse e-mail valide."
+  },
+  "footer": {
+    "navigationLabel": "Plan du site",
+    "socialLabel": "Eterna Tech sur les réseaux sociaux",
+    "copyright": "© {year} Eterna Tech. Tous droits réservés.",
+    "localTime": "Heure locale",
+    "cookiesSettings": "Gestion des cookies"
+  },
+  "cookies": {
+    "title": "Cookies",
+    "body": "Nous utilisons des cookies strictement nécessaires au fonctionnement du site. Avec votre accord, nous activons également la mesure d'audience et les contenus tiers comme la carte Google Maps.",
+    "accept": "Tout accepter",
+    "reject": "Refuser les cookies non essentiels",
+    "privacyLink": "Lire la politique de confidentialité",
+    "reopen": "Gestion des cookies",
+    "savedAccepted": "Cookies tiers acceptés.",
+    "savedRejected": "Cookies non essentiels refusés."
+  },
+  "notFound": {
+    "title": "Page introuvable",
+    "body": "La page que vous cherchez n'existe pas ou a été déplacée.",
+    "cta": "Revenir à l'accueil"
+  },
+  "error": {
+    "title": "Une erreur est survenue",
+    "body": "Nous n'avons pas pu afficher cette page. Réessayez ou revenez à l'accueil.",
+    "retry": "Réessayer"
+  }
+}

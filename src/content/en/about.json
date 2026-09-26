@@ -1,0 +1,126 @@
+{
+  "preview": {
+    "badge": "Algeria",
+    "title": "Who are ",
+    "titleAccent": "we?",
+    "description": "Eterna Tech is an Algerian company specialised in innovative technology solutions. Our team of passionate experts is committed to delivering top-quality services that answer tomorrow's technology challenges.",
+    "cta": "Learn more about us"
+  },
+  "page": {
+    "title": "About Eterna Tech",
+    "tagline": "An Algerian company turning technology challenges into opportunities.",
+    "seo": {
+      "title": "About Eterna Tech",
+      "description": "Eterna Tech, an Algerian technology solutions company based in Tlemcen: mission, values, key figures, working approach and contact details."
+    }
+  },
+  "figures": [
+    {
+      "value": "1+",
+      "number": 1,
+      "suffix": "+",
+      "label": "Year of experience",
+      "icon": "Calendar",
+      "screenReaderLabel": "More than one year of experience"
+    },
+    {
+      "value": "25+",
+      "number": 25,
+      "suffix": "+",
+      "label": "Projects delivered",
+      "icon": "Award",
+      "screenReaderLabel": "More than 25 projects delivered"
+    },
+    {
+      "value": "15+",
+      "number": 15,
+      "suffix": "+",
+      "label": "Satisfied clients",
+      "icon": "Users",
+      "screenReaderLabel": "More than 15 satisfied clients"
+    }
+  ],
+  "mission": {
+    "title": "Our Mission",
+    "subtitle": "What drives us",
+    "body": "To provide innovative technology solutions that turn challenges into opportunities and fuel our clients' growth in Algeria and beyond."
+  },
+  "values": {
+    "title": "Our Values",
+    "items": [
+      {
+        "title": "Innovation",
+        "description": "We push the limits of technology to create unique solutions.",
+        "icon": "Lightbulb"
+      },
+      {
+        "title": "Excellence",
+        "description": "Every project is delivered with rigour and attention to detail.",
+        "icon": "Target"
+      },
+      {
+        "title": "Growth",
+        "description": "We guide our clients towards success and digital transformation.",
+        "icon": "TrendingUp"
+      },
+      {
+        "title": "Partnership",
+        "description": "We build long-term relationships of trust with our clients.",
+        "icon": "Handshake"
+      }
+    ]
+  },
+  "approach": {
+    "title": "Our Approach",
+    "subtitle": "Four phases that shape every project we take on",
+    "steps": [
+      {
+        "title": "Analysis",
+        "description": "We start by understanding your business, your goals and your real constraints before proposing anything."
+      },
+      {
+        "title": "Design",
+        "description": "Mockups and architecture are validated with you, to remove doubts before the first line of code."
+      },
+      {
+        "title": "Development",
+        "description": "We build in short, demonstrable increments, with tests and regular validation points."
+      },
+      {
+        "title": "Support",
+        "description": "Training, maintenance and evolutions: we stay present after go-live."
+      }
+    ]
+  },
+  "history": {
+    "title": "Our Story",
+    "subtitle": "Key milestones of Eterna Tech",
+    "steps": [
+      {
+        "title": "The project begins",
+        "description": "Eterna Tech — short for Eternal Technologies — is founded in Tlemcen around a simple idea: make advanced technologies accessible to Algerian businesses."
+      },
+      {
+        "title": "Setting up at the I2E Student Center",
+        "description": "The company moves into the I2E Student Center at the University of Tlemcen, in direct contact with the student and entrepreneurial ecosystem."
+      },
+      {
+        "title": "First in-house solutions",
+        "description": "Work starts on Amane Trig, an AI-powered road safety device developed in-house."
+      },
+      {
+        "title": "Today",
+        "description": "13 services, one flagship solution developed in-house, 25+ projects delivered and 15+ satisfied clients in Algeria and beyond."
+      }
+    ]
+  },
+  "team": {
+    "title": "Our Team",
+    "subtitle": "Complementary profiles, from development to design",
+    "members": []
+  },
+  "location": {
+    "title": "Where to find us",
+    "subtitle": "Our offices are open to clients and to project founders alike."
+  }
+}

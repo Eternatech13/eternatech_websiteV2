@@ -1,0 +1,820 @@
+{
+  "intro": {
+    "badge": "What we offer",
+    "title": "Our Services",
+    "subtitle": "Complete technology solutions to meet every need",
+    "pitch": "From the first scoping workshop to production maintenance, we cover the whole technology chain: development, artificial intelligence, design, training and network infrastructure.",
+    "allLink": "View all our services"
+  },
+  "items": [
+    {
+      "slug": "developpement-web",
+      "name": "Web Development",
+      "description": "Tailor-made websites, web applications and scalable e-commerce solutions.",
+      "category": "Development",
+      "icon": "Code",
+      "accent": "primary",
+      "hero": {
+        "title": "Web Development",
+        "intro": "We build tailor-made, modern and fast websites that reflect your company's identity and serve your business goals."
+      },
+      "process": [
+        {
+          "title": "Needs analysis",
+          "description": "We start with an in-depth consultation to understand your goals, your target audience and your functional requirements."
+        },
+        {
+          "title": "Design & wireframing",
+          "description": "Visual mockups (wireframes and high-fidelity designs) to validate the design and the site architecture before development."
+        },
+        {
+          "title": "Development",
+          "description": "Coding the site with current technologies (React, Next.js, Node.js) and following development best practices."
+        },
+        {
+          "title": "Testing & optimisation",
+          "description": "Thorough testing across every browser and device, plus performance and SEO optimisation."
+        },
+        {
+          "title": "Hosting & domain name",
+          "description": "Setting up secure hosting, installing the SSL certificate and configuring your custom domain name."
+        },
+        {
+          "title": "Go-live & training",
+          "description": "Deploying the site to production and training you to manage your content from the back office."
+        },
+        {
+          "title": "Maintenance & support",
+          "description": "Ongoing technical support, security updates and preventive maintenance to keep your site healthy."
+        }
+      ],
+      "features": [
+        "Responsive design for every screen size",
+        "SEO optimisation for better search ranking",
+        "Optimal performance (fast loading times)",
+        "Hardened security with SSL certificate",
+        "Intuitive administration interface",
+        "Social media integration",
+        "Secure contact forms",
+        "Analytics and performance tracking"
+      ],
+      "includes": [
+        "Premium hosting for 1 year",
+        "Domain name free for the first year",
+        "Free SSL certificate",
+        "5 professional email addresses",
+        "Automatic daily backup",
+        "6 months of technical support"
+      ],
+      "related": [
+        "ui-ux",
+        "e-commerce",
+        "applications-mobiles"
+      ],
+      "seo": {
+        "title": "Tailor-made web development",
+        "description": "Websites, applications and platforms built with React, Next.js and Node.js by Eterna Tech in Tlemcen."
+      }
+    },
+    {
+      "slug": "applications-mobiles",
+      "name": "Mobile Applications",
+      "description": "Intuitive iOS and Android apps designed to deliver an outstanding user experience.",
+      "category": "Development",
+      "icon": "Smartphone",
+      "accent": "secondary",
+      "hero": {
+        "title": "Mobile Applications",
+        "intro": "Native or cross-platform iOS and Android app development, built to deliver an outstanding user experience."
+      },
+      "process": [
+        {
+          "title": "Project definition",
+          "description": "Needs analysis, feature definition and technology choice (React Native, Flutter, native)."
+        },
+        {
+          "title": "UX/UI design",
+          "description": "Designing intuitive user interfaces and building interactive prototypes."
+        },
+        {
+          "title": "Development",
+          "description": "Programming the application following mobile development best practices."
+        },
+        {
+          "title": "Testing",
+          "description": "Unit tests, integration tests and user testing across different devices."
+        },
+        {
+          "title": "Publication",
+          "description": "Submission to the App Store and Google Play Store with ASO optimisation."
+        },
+        {
+          "title": "Maintenance",
+          "description": "Regular updates, bug fixes and new feature releases."
+        }
+      ],
+      "features": [
+        "iOS and Android applications",
+        "Intuitive interface",
+        "Push notifications",
+        "Offline mode",
+        "API integration",
+        "Data security"
+      ],
+      "includes": [
+        "Publication on the stores",
+        "3 months of technical support",
+        "Technical documentation",
+        "User training"
+      ],
+      "related": [
+        "developpement-web",
+        "ui-ux",
+        "ia-machine-learning"
+      ],
+      "seo": {
+        "title": "iOS and Android mobile app development",
+        "description": "Native or cross-platform mobile applications: scoping, design, development, store publication and maintenance. Eterna Tech, Tlemcen."
+      }
+    },
+    {
+      "slug": "ia-machine-learning",
+      "name": "AI & Machine Learning",
+      "description": "AI model development, machine learning and federated learning for intelligent solutions.",
+      "category": "AI & Security",
+      "icon": "BrainCircuit",
+      "accent": "accent",
+      "hero": {
+        "title": "AI & Machine Learning",
+        "intro": "Custom artificial intelligence models, machine learning and federated learning for intelligent, innovative solutions."
+      },
+      "process": [
+        {
+          "title": "Data analysis",
+          "description": "Reviewing your existing data, identifying use cases and defining the goals of the AI model."
+        },
+        {
+          "title": "Data preparation",
+          "description": "Collecting, cleaning and pre-processing the data used to train the model."
+        },
+        {
+          "title": "Model design",
+          "description": "Choosing the architecture (neural networks, decision trees, and so on) and designing the right model."
+        },
+        {
+          "title": "Training",
+          "description": "Training the model on your data, tuning hyperparameters and running cross-validation."
+        },
+        {
+          "title": "Testing & validation",
+          "description": "Evaluating model performance, testing on real data and adjusting accordingly."
+        },
+        {
+          "title": "Deployment",
+          "description": "Integrating the model into your infrastructure and moving it to production."
+        },
+        {
+          "title": "Monitoring & improvement",
+          "description": "Performance monitoring, periodic retraining and continuous improvement."
+        }
+      ],
+      "features": [
+        "Custom AI models",
+        "Machine learning",
+        "Federated learning",
+        "Deep learning and neural networks",
+        "Computer vision",
+        "Natural language processing (NLP)",
+        "Predictive analytics",
+        "Anomaly detection"
+      ],
+      "includes": [
+        "Free data audit",
+        "Working prototype",
+        "Complete technical documentation",
+        "Team training",
+        "6 months of technical support",
+        "Source code and models"
+      ],
+      "related": [
+        "blockchain-securite",
+        "applications-mobiles",
+        "modelisation-3d"
+      ],
+      "seo": {
+        "title": "AI & Machine Learning: custom models",
+        "description": "Computer vision, federated learning, predictive analytics and anomaly detection: Eterna Tech designs and deploys your AI models."
+      }
+    },
+    {
+      "slug": "modelisation-3d",
+      "name": "3D Modelling & Prototyping",
+      "description": "Professional 3D models and prototypes to visualise your projects before production.",
+      "category": "Design",
+      "icon": "Box",
+      "accent": "primary",
+      "hero": {
+        "title": "3D Modelling & Prototyping",
+        "intro": "Professional 3D models and prototypes to visualise your projects before they are built."
+      },
+      "process": [
+        {
+          "title": "Creative brief",
+          "description": "Understanding your vision and the technical specifications of the project."
+        },
+        {
+          "title": "Modelling",
+          "description": "Building the 3D model with professional software (Blender, 3ds Max, Maya)."
+        },
+        {
+          "title": "Texturing",
+          "description": "Applying realistic textures and materials."
+        },
+        {
+          "title": "Rendering",
+          "description": "Generating high-quality images and animations."
+        },
+        {
+          "title": "Prototyping",
+          "description": "3D printing or interactive virtual prototypes."
+        },
+        {
+          "title": "Delivery",
+          "description": "Supplying the files in every format you need."
+        }
+      ],
+      "features": [
+        "High-precision modelling",
+        "Photorealistic renders",
+        "3D animation",
+        "3D printing",
+        "Virtual reality",
+        "Architectural visualisation"
+      ],
+      "includes": [
+        "Source files",
+        "HD renders",
+        "Revisions included",
+        "Multi-format export"
+      ],
+      "related": [
+        "conception-graphique",
+        "ui-ux",
+        "ia-machine-learning"
+      ],
+      "seo": {
+        "title": "3D modelling and prototyping",
+        "description": "High-precision modelling, photorealistic renders, 3D animation and 3D printing to visualise your projects before production."
+      }
+    },
+    {
+      "slug": "conception-graphique",
+      "name": "Graphic Design & Branding",
+      "description": "Visual identities, logos, marketing material and creative design for your brand.",
+      "category": "Design",
+      "icon": "PenTool",
+      "accent": "secondary",
+      "hero": {
+        "title": "Graphic Design & Branding",
+        "intro": "Distinctive visual identities and high-impact marketing material for your brand."
+      },
+      "process": [
+        {
+          "title": "Discovery",
+          "description": "Analysing your brand, your values and your positioning."
+        },
+        {
+          "title": "Research",
+          "description": "Studying the competition and market trends."
+        },
+        {
+          "title": "Concepts",
+          "description": "Creating several creative proposals."
+        },
+        {
+          "title": "Development",
+          "description": "Refining the chosen concept and rolling out variations."
+        },
+        {
+          "title": "Brand guidelines",
+          "description": "Complete documentation of the visual identity."
+        },
+        {
+          "title": "Delivery",
+          "description": "Supplying all files and formats."
+        }
+      ],
+      "features": [
+        "Logo and visual identity",
+        "Brand guidelines",
+        "Print material",
+        "Digital material",
+        "Packaging",
+        "Signage"
+      ],
+      "includes": [
+        "Logo in multiple formats",
+        "Brand guidelines as PDF",
+        "Source files",
+        "Usage guide"
+      ],
+      "related": [
+        "ui-ux",
+        "publicite",
+        "modelisation-3d"
+      ],
+      "seo": {
+        "title": "Graphic design and visual identity",
+        "description": "Logo, brand guidelines, print and digital material: Eterna Tech builds a consistent visual identity for your brand."
+      }
+    },
+    {
+      "slug": "ui-ux",
+      "name": "UI/UX Design",
+      "description": "Intuitive user interfaces and optimised user experiences for your digital products.",
+      "category": "Design",
+      "icon": "LayoutTemplate",
+      "accent": "accent",
+      "hero": {
+        "title": "UI/UX Design",
+        "intro": "Intuitive user interface design and optimised user experiences."
+      },
+      "process": [
+        {
+          "title": "User research",
+          "description": "User studies, personas and customer journeys."
+        },
+        {
+          "title": "Architecture",
+          "description": "Defining the site structure and the navigation flows."
+        },
+        {
+          "title": "Wireframes",
+          "description": "Building wireframes to validate the structure."
+        },
+        {
+          "title": "UI design",
+          "description": "Designing the final visual interfaces."
+        },
+        {
+          "title": "Prototyping",
+          "description": "Building interactive prototypes for testing."
+        },
+        {
+          "title": "User testing",
+          "description": "Validation with real users, then iteration."
+        }
+      ],
+      "features": [
+        "UX research",
+        "Wireframing",
+        "Design system",
+        "Interactive prototypes",
+        "User testing",
+        "Accessibility"
+      ],
+      "includes": [
+        "Figma / Sketch files",
+        "Design system",
+        "UX documentation",
+        "Clickable prototype"
+      ],
+      "related": [
+        "developpement-web",
+        "conception-graphique",
+        "applications-mobiles"
+      ],
+      "seo": {
+        "title": "UI/UX design: intuitive, accessible interfaces",
+        "description": "UX research, wireframing, design system, interactive prototypes and user testing for products people can actually use."
+      }
+    },
+    {
+      "slug": "formation-it",
+      "name": "IT Training",
+      "description": "Tailored information technology training programmes for your teams.",
+      "category": "Guidance",
+      "icon": "GraduationCap",
+      "accent": "primary",
+      "hero": {
+        "title": "IT Training",
+        "intro": "Tailored training programmes to grow your teams' technology skills."
+      },
+      "process": [
+        {
+          "title": "Assessment",
+          "description": "Reviewing current skills and training needs."
+        },
+        {
+          "title": "Programme",
+          "description": "Building a bespoke training programme."
+        },
+        {
+          "title": "Scheduling",
+          "description": "Organising the sessions around your availability."
+        },
+        {
+          "title": "Training",
+          "description": "Theory and hands-on training sessions."
+        },
+        {
+          "title": "Exercises",
+          "description": "Practical work and real projects."
+        },
+        {
+          "title": "Certification",
+          "description": "Final assessment and issue of certificates."
+        }
+      ],
+      "features": [
+        "Bespoke training",
+        "Expert trainers",
+        "Course material",
+        "Practical exercises",
+        "Certification",
+        "Post-training follow-up"
+      ],
+      "includes": [
+        "Course material",
+        "Access to the e-learning platform",
+        "Training certificate",
+        "1 month of support"
+      ],
+      "related": [
+        "developpement-web",
+        "ia-machine-learning",
+        "label-startup"
+      ],
+      "seo": {
+        "title": "IT training for teams and students",
+        "description": "Tailored IT training programmes, expert trainers, practical exercises and certification, on site in Tlemcen or remotely."
+      }
+    },
+    {
+      "slug": "reseaux-domestiques",
+      "name": "Home Network Installation",
+      "description": "Setup and installation of secure home networks, Wi-Fi and structured cabling.",
+      "category": "Infrastructure",
+      "icon": "Wifi",
+      "accent": "secondary",
+      "hero": {
+        "title": "Home Network Installation",
+        "intro": "Setup and installation of secure home networks for optimal connectivity."
+      },
+      "process": [
+        {
+          "title": "Survey",
+          "description": "Analysing your needs and the layout of your home."
+        },
+        {
+          "title": "Design",
+          "description": "Planning the network and choosing the equipment."
+        },
+        {
+          "title": "Installation",
+          "description": "Running the cabling and fitting the network equipment."
+        },
+        {
+          "title": "Configuration",
+          "description": "Setting up the router, Wi-Fi and security."
+        },
+        {
+          "title": "Testing",
+          "description": "Checking coverage and performance."
+        },
+        {
+          "title": "Handover",
+          "description": "Explaining how it works and sharing good practice."
+        }
+      ],
+      "features": [
+        "High-performance Wi-Fi",
+        "Structured cabling",
+        "Network security",
+        "Home automation",
+        "NAS and storage",
+        "VPN"
+      ],
+      "includes": [
+        "Free survey",
+        "Warranted equipment",
+        "Complete configuration",
+        "Phone support"
+      ],
+      "related": [
+        "blockchain-securite",
+        "ia-machine-learning",
+        "formation-it"
+      ],
+      "seo": {
+        "title": "Home network and Wi-Fi installation",
+        "description": "High-performance Wi-Fi, structured cabling, network security, home automation and VPN in Tlemcen and the surrounding region."
+      }
+    },
+    {
+      "slug": "blockchain-securite",
+      "name": "Blockchain & Data Security",
+      "description": "Blockchain solutions and cybersecurity strategies to protect your sensitive data.",
+      "category": "AI & Security",
+      "icon": "ShieldCheck",
+      "accent": "accent",
+      "hero": {
+        "title": "Blockchain & Data Security",
+        "intro": "Innovative blockchain solutions and cybersecurity strategies to protect your digital assets."
+      },
+      "process": [
+        {
+          "title": "Security audit",
+          "description": "Assessing current vulnerabilities and risks."
+        },
+        {
+          "title": "Strategy",
+          "description": "Defining the security and / or blockchain strategy."
+        },
+        {
+          "title": "Development",
+          "description": "Implementing the technical solutions."
+        },
+        {
+          "title": "Smart contracts",
+          "description": "Developing and auditing the smart contracts."
+        },
+        {
+          "title": "Deployment",
+          "description": "Secure release to production."
+        },
+        {
+          "title": "Monitoring",
+          "description": "Continuous monitoring and security alerts."
+        }
+      ],
+      "features": [
+        "Smart contracts",
+        "NFTs and tokens",
+        "Security audit",
+        "Cryptography",
+        "DeFi",
+        "GDPR compliance"
+      ],
+      "includes": [
+        "Audit report",
+        "Technical documentation",
+        "Security training",
+        "Ongoing support"
+      ],
+      "related": [
+        "ia-machine-learning",
+        "reseaux-domestiques",
+        "developpement-web"
+      ],
+      "seo": {
+        "title": "Blockchain and data security",
+        "description": "Smart contracts, security audit, cryptography and compliance: Eterna Tech protects your digital assets."
+      }
+    },
+    {
+      "slug": "e-commerce",
+      "name": "E-Commerce",
+      "description": "High-performing online stores with secure payment systems and stock management.",
+      "category": "Development",
+      "icon": "ShoppingCart",
+      "accent": "primary",
+      "hero": {
+        "title": "E-Commerce",
+        "intro": "High-performing online stores to grow your sales on the internet."
+      },
+      "process": [
+        {
+          "title": "Strategy",
+          "description": "Defining your e-commerce strategy and analysing the market."
+        },
+        {
+          "title": "Catalogue",
+          "description": "Organising your products and creating the product pages."
+        },
+        {
+          "title": "Development",
+          "description": "Building the store (Shopify, WooCommerce, or fully custom)."
+        },
+        {
+          "title": "Payment",
+          "description": "Integrating secure payment providers."
+        },
+        {
+          "title": "Logistics",
+          "description": "Configuring stock management and deliveries."
+        },
+        {
+          "title": "Launch",
+          "description": "Go-live and launch marketing strategy."
+        }
+      ],
+      "features": [
+        "Responsive store",
+        "Secure payment",
+        "Stock management",
+        "Multi-currency",
+        "E-commerce SEO",
+        "Analytics"
+      ],
+      "includes": [
+        "1 year of hosting",
+        "Free SSL",
+        "Back-office training",
+        "6 months of support"
+      ],
+      "related": [
+        "developpement-web",
+        "publicite",
+        "ui-ux"
+      ],
+      "seo": {
+        "title": "E-commerce online store development",
+        "description": "Responsive store, secure payment, stock management, multi-currency and e-commerce SEO to grow your online sales."
+      }
+    },
+    {
+      "slug": "publicite",
+      "name": "Advertising Agency",
+      "description": "Digital marketing strategies, advertising campaigns and social media management.",
+      "category": "Marketing",
+      "icon": "Megaphone",
+      "accent": "secondary",
+      "hero": {
+        "title": "Advertising Agency",
+        "intro": "Digital marketing strategies and advertising campaigns to grow your visibility."
+      },
+      "process": [
+        {
+          "title": "Analysis",
+          "description": "Studying your market, your competitors and your target audience."
+        },
+        {
+          "title": "Strategy",
+          "description": "Setting the objectives and the marketing plan."
+        },
+        {
+          "title": "Creation",
+          "description": "Designing the advertising visuals and copy."
+        },
+        {
+          "title": "Campaigns",
+          "description": "Launching the campaigns on the chosen platforms."
+        },
+        {
+          "title": "Optimisation",
+          "description": "Performance tracking and continuous optimisation."
+        },
+        {
+          "title": "Reporting",
+          "description": "Detailed reports and recommendations."
+        }
+      ],
+      "features": [
+        "Google Ads",
+        "Facebook and Instagram Ads",
+        "LinkedIn Ads",
+        "SEO / SEA",
+        "Community management",
+        "Influencer marketing"
+      ],
+      "includes": [
+        "Free marketing audit",
+        "Monthly reports",
+        "Advertising visuals",
+        "Strategic advice"
+      ],
+      "related": [
+        "e-commerce",
+        "conception-graphique",
+        "developpement-web"
+      ],
+      "seo": {
+        "title": "Advertising agency and digital marketing",
+        "description": "Google Ads, Facebook and Instagram Ads, LinkedIn Ads, SEO/SEA and community management, with detailed monthly reporting."
+      }
+    },
+    {
+      "slug": "label-projet-innovant",
+      "name": "Innovative Project Label Filing",
+      "description": "Guidance and support for filing your innovative project label application.",
+      "category": "Guidance",
+      "icon": "Lightbulb",
+      "accent": "accent",
+      "hero": {
+        "title": "Innovative Project Label Filing",
+        "intro": "End-to-end support to obtain the innovative project label and access funding."
+      },
+      "process": [
+        {
+          "title": "Assessment",
+          "description": "Analysing whether your project is eligible for the label."
+        },
+        {
+          "title": "Preparation",
+          "description": "Assembling the application and the required documents."
+        },
+        {
+          "title": "Business plan",
+          "description": "Writing or improving your business plan."
+        },
+        {
+          "title": "Pitch",
+          "description": "Preparing your presentation to the committee."
+        },
+        {
+          "title": "Filing",
+          "description": "Official submission of the application."
+        },
+        {
+          "title": "Follow-up",
+          "description": "Support until the label is granted."
+        }
+      ],
+      "features": [
+        "Eligibility study",
+        "Application writing",
+        "Business plan",
+        "Pitch coaching",
+        "Administrative follow-up",
+        "Introductions to the network"
+      ],
+      "includes": [
+        "Free initial consultation",
+        "Document templates",
+        "Unlimited revisions",
+        "Personalised support"
+      ],
+      "related": [
+        "label-startup",
+        "formation-it",
+        "modelisation-3d"
+      ],
+      "seo": {
+        "title": "Support for the Innovative Project label",
+        "description": "Eligibility study, application writing, business plan and pitch coaching all the way to obtaining the innovative project label."
+      }
+    },
+    {
+      "slug": "label-startup",
+      "name": "Startup Label Filing",
+      "description": "End-to-end assistance to obtain the startup label and access its benefits.",
+      "category": "Guidance",
+      "icon": "Award",
+      "accent": "primary",
+      "hero": {
+        "title": "Startup Label Filing",
+        "intro": "End-to-end assistance to obtain the startup label and all the tax benefits that come with it."
+      },
+      "process": [
+        {
+          "title": "Diagnosis",
+          "description": "Checking that you meet the startup label eligibility criteria."
+        },
+        {
+          "title": "Documentation",
+          "description": "Preparing every required administrative document."
+        },
+        {
+          "title": "Technical application",
+          "description": "Writing the project presentation document."
+        },
+        {
+          "title": "Validation",
+          "description": "Checking and validating the complete application."
+        },
+        {
+          "title": "Submission",
+          "description": "Official filing with the relevant authorities."
+        },
+        {
+          "title": "Award",
+          "description": "Follow-up until the label is granted, plus post-label support."
+        }
+      ],
+      "features": [
+        "Tax benefits",
+        "Exemptions",
+        "Access to funding",
+        "Entrepreneur network",
+        "ANADE support",
+        "Banking facilities"
+      ],
+      "includes": [
+        "Feasibility study",
+        "Complete application",
+        "Administrative support",
+        "Post-award follow-up"
+      ],
+      "related": [
+        "label-projet-innovant",
+        "formation-it",
+        "developpement-web"
+      ],
+      "seo": {
+        "title": "Support for the Startup label",
+        "description": "Diagnosis, technical application, official filing and post-label support: tax benefits, exemptions and access to funding."
+      }
+    }
+  ]
+}

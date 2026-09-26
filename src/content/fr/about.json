@@ -1,0 +1,126 @@
+{
+  "preview": {
+    "badge": "Algérie",
+    "title": "Qui sommes-",
+    "titleAccent": "nous ?",
+    "description": "Eterna Tech est une entreprise algérienne spécialisée dans les solutions technologiques innovantes. Notre équipe d'experts passionnés s'engage à fournir des services de qualité supérieure pour répondre aux défis technologiques de demain.",
+    "cta": "En savoir plus sur nous"
+  },
+  "page": {
+    "title": "À propos d'Eterna Tech",
+    "tagline": "Une entreprise algérienne qui transforme les défis technologiques en opportunités.",
+    "seo": {
+      "title": "À propos d'Eterna Tech",
+      "description": "Eterna Tech, entreprise algérienne de solutions technologiques installée à Tlemcen : mission, valeurs, chiffres clés, approche de travail et coordonnées."
+    }
+  },
+  "figures": [
+    {
+      "value": "1+",
+      "number": 1,
+      "suffix": "+",
+      "label": "Année d'expérience",
+      "icon": "Calendar",
+      "screenReaderLabel": "Plus d'un an d'expérience"
+    },
+    {
+      "value": "25+",
+      "number": 25,
+      "suffix": "+",
+      "label": "Projets réalisés",
+      "icon": "Award",
+      "screenReaderLabel": "Plus de 25 projets réalisés"
+    },
+    {
+      "value": "15+",
+      "number": 15,
+      "suffix": "+",
+      "label": "Clients satisfaits",
+      "icon": "Users",
+      "screenReaderLabel": "Plus de 15 clients satisfaits"
+    }
+  ],
+  "mission": {
+    "title": "Notre Mission",
+    "subtitle": "Ce qui nous anime",
+    "body": "Fournir des solutions technologiques innovantes qui transforment les défis en opportunités et stimulent la croissance de nos clients en Algérie et au-delà."
+  },
+  "values": {
+    "title": "Nos Valeurs",
+    "items": [
+      {
+        "title": "Innovation",
+        "description": "Nous repoussons les limites de la technologie pour créer des solutions uniques.",
+        "icon": "Lightbulb"
+      },
+      {
+        "title": "Excellence",
+        "description": "Chaque projet est réalisé avec rigueur et souci du détail.",
+        "icon": "Target"
+      },
+      {
+        "title": "Croissance",
+        "description": "Nous accompagnons nos clients vers le succès et la transformation digitale.",
+        "icon": "TrendingUp"
+      },
+      {
+        "title": "Partenariat",
+        "description": "Nous construisons avec nos clients des relations de confiance sur le long terme.",
+        "icon": "Handshake"
+      }
+    ]
+  },
+  "approach": {
+    "title": "Notre Approche",
+    "subtitle": "Quatre temps qui structurent chacun de nos projets",
+    "steps": [
+      {
+        "title": "Analyse",
+        "description": "Nous commençons par comprendre votre activité, vos objectifs et vos contraintes réelles avant de proposer quoi que ce soit."
+      },
+      {
+        "title": "Conception",
+        "description": "Maquettes et architecture sont validées avec vous, pour lever les doutes avant la première ligne de code."
+      },
+      {
+        "title": "Développement",
+        "description": "Nous construisons par étapes courtes et démontrables, avec des tests et des points de validation réguliers."
+      },
+      {
+        "title": "Accompagnement",
+        "description": "Formation, maintenance et évolutions : nous restons présents après la mise en ligne."
+      }
+    ]
+  },
+  "history": {
+    "title": "Notre Histoire",
+    "subtitle": "Les étapes clés d'Eterna Tech",
+    "steps": [
+      {
+        "title": "Naissance du projet",
+        "description": "Eterna Tech — pour Eternal Technologies — est fondée à Tlemcen autour d'une idée simple : rendre les technologies avancées accessibles aux entreprises algériennes."
+      },
+      {
+        "title": "Installation au I2E Student Center",
+        "description": "L'entreprise s'installe au I2E Student Center de l'Université de Tlemcen, au contact direct de l'écosystème étudiant et entrepreneurial."
+      },
+      {
+        "title": "Premières solutions internes",
+        "description": "Lancement des travaux sur Amane Trig, dispositif de sécurité routière par intelligence artificielle développé en interne."
+      },
+      {
+        "title": "Aujourd'hui",
+        "description": "13 services, une solution phare développée en interne, 25+ projets réalisés et 15+ clients satisfaits en Algérie et au-delà."
+      }
+    ]
+  },
+  "team": {
+    "title": "Notre Équipe",
+    "subtitle": "Des profils complémentaires, du développement au design",
+    "members": []
+  },
+  "location": {
+    "title": "Où nous trouver",
+    "subtitle": "Nos bureaux sont ouverts aux clients comme aux porteurs de projets."
+  }
+}

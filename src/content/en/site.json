@@ -1,0 +1,179 @@
+{
+  "name": "Eterna Tech",
+  "tagline": "Innovative technology solutions",
+  "slogan": "Innovative technology solutions for the companies of tomorrow.",
+  "nav": [
+    { "label": "Home", "href": "/" },
+    { "label": "Services", "href": "/services" },
+    { "label": "Solutions", "href": "/solutions" },
+    { "label": "About", "href": "/a-propos" },
+    { "label": "Contact", "href": "/contact" }
+  ],
+  "hero": {
+    "badge": "INNOVATION THAT DRIVES YOUR GROWTH",
+    "titleLine1": "Technology Innovation",
+    "titleLine2Start": "for a ",
+    "titleLine2Accent": "Sustainable",
+    "description": [
+      { "text": "Discover advanced technology solutions to " },
+      { "text": "transform your business", "strong": true },
+      { "text": " and propel it into the future." }
+    ],
+    "primaryCta": { "label": "Our Solutions", "href": "/solutions" },
+    "secondaryCta": { "label": "Learn more", "href": "/a-propos" }
+  },
+  "contact": {
+    "badge": "Let's talk about your project",
+    "title": "Contact ",
+    "titleAccent": "us",
+    "subtitle": "A question, a project, a demo request? Our team gets back to you within two working days.",
+    "addressLines": [
+      "I2E Student Center, Office No. 3",
+      "University of Tlemcen",
+      "Tlemcen 13000, Algeria"
+    ],
+    "phone": "+213 659 793 110",
+    "phoneLink": "tel:+213659793110",
+    "whatsapp": "https://wa.me/213659793110",
+    "email": "contact@eternatech.net",
+    "mapsUrl": "https://maps.app.goo.gl/747TNwyxx69ab8327",
+    "mapsEmbedUrl": "https://www.google.com/maps?q=I2E%20Student%20Center%20Universit%C3%A9%20de%20Tlemcen&output=embed",
+    "hours": "Sunday – Thursday, 9:00 – 17:00 (UTC+1)",
+    "subjects": [
+      "Quote request",
+      "Amane Trig demo request",
+      "Web or mobile development",
+      "Artificial intelligence",
+      "IT training",
+      "Startup / Innovative project label",
+      "Home networks",
+      "Partnership",
+      "Other enquiry"
+    ]
+  },
+  "footer": {
+    "newsletter": {
+      "badge": "YOUR TECHNOLOGY PARTNER",
+      "titleLines": [
+        "Our news,",
+        "projects and tech advice,",
+        "straight to your inbox."
+      ],
+      "consent": "By subscribing you agree to receive our emails and to our privacy policy. You can unsubscribe at any time."
+    },
+    "columns": [
+      {
+        "title": "QUICK LINKS",
+        "links": [
+          { "label": "Home", "href": "/" },
+          { "label": "Services", "href": "/services" },
+          { "label": "Solutions", "href": "/solutions" },
+          { "label": "About", "href": "/a-propos" },
+          { "label": "Contact", "href": "/contact" }
+        ]
+      },
+      {
+        "title": "SERVICES",
+        "links": [
+          { "label": "Web Development", "href": "/services/developpement-web" },
+          { "label": "Mobile Applications", "href": "/services/applications-mobiles" },
+          { "label": "IT Training", "href": "/services/formation-it" },
+          { "label": "AI & Machine Learning", "href": "/services/ia-machine-learning" },
+          { "label": "3D Modelling & Prototyping", "href": "/services/modelisation-3d" },
+          { "label": "View all services", "href": "/services" }
+        ]
+      }
+    ],
+    "contactTitle": "CONTACT",
+    "mapsLinkLabel": "View on Google Maps",
+    "location": "Tlemcen, Algeria",
+    "legalLinks": [
+      { "label": "Legal notice", "href": "/mentions-legales" },
+      { "label": "Privacy policy", "href": "/politique-confidentialite" }
+    ]
+  },
+  "social": [
+    { "label": "Instagram", "href": "https://www.instagram.com/eternaltech3", "icon": "instagram" },
+    { "label": "Facebook", "href": "https://www.facebook.com/share/17UChGf4Vc/", "icon": "facebook" },
+    { "label": "TikTok", "href": "https://www.tiktok.com/@eterna.tech", "icon": "tiktok" },
+    {
+      "label": "LinkedIn",
+      "href": "https://dz.linkedin.com/company/eterna-tech13",
+      "icon": "linkedin"
+    },
+    { "label": "WhatsApp", "href": "https://wa.me/213659793110", "icon": "whatsapp" }
+  ],
+  "legal": {
+    "notice": {
+      "title": "Legal notice",
+      "seoDescription": "Legal notice for eternatech.net: publisher, hosting provider, intellectual property and liability.",
+      "sections": [
+        {
+          "title": "Website publisher",
+          "body": "eternatech.net is published by Eterna Tech (Eternal Technologies), a technology solutions company based at I2E Student Center, Office No. 3, University of Tlemcen, Tlemcen 13000, Algeria. Phone: +213 659 793 110. Email: contact@eternatech.net. Full statutory identification details (legal form, registration number, share capital, publishing manager) are to be completed by Eterna Tech before launch."
+        },
+        {
+          "title": "Hosting",
+          "body": "The site runs on a Vercel-compatible infrastructure with CDN delivery. The final hosting provider and its contact details will be stated once the hosting choice is confirmed."
+        },
+        {
+          "title": "Intellectual property",
+          "body": "All website content — text, visuals, logos, the Eterna Tech and Amane Trig trademarks, source code — is protected. Any reproduction or representation, in whole or in part, without prior written permission from Eterna Tech is prohibited."
+        },
+        {
+          "title": "Liability",
+          "body": "Eterna Tech strives to publish accurate and up-to-date information but does not guarantee that content is exhaustive. Links to third-party websites are provided for convenience; Eterna Tech has no control over their content."
+        },
+        {
+          "title": "Contact",
+          "body": "For any question about this website or this legal notice, write to contact@eternatech.net."
+        }
+      ]
+    },
+    "privacy": {
+      "title": "Privacy policy",
+      "seoDescription": "Eterna Tech privacy policy: data collected, purposes, retention periods, cookies and your rights.",
+      "sections": [
+        {
+          "title": "Data we collect",
+          "body": "Contact form: full name, email address, phone and company (both optional), subject and message. Newsletter sign-up: email address. Audience measurement: aggregated browsing data, only after you give consent."
+        },
+        {
+          "title": "Purposes",
+          "body": "Your data is used solely to answer your enquiry, to send you our news if you asked for it, and to improve the website. It is never sold or passed to third parties for advertising purposes."
+        },
+        {
+          "title": "Retention",
+          "body": "Contact enquiries are kept for 24 months after the last exchange. Newsletter email addresses are kept until you unsubscribe. Browsing statistics are kept for a maximum of 14 months."
+        },
+        {
+          "title": "Cookies",
+          "body": "No measurement or tracking cookie is installed before you agree. Only strictly necessary cookies (language preference, memory of your consent choice) are set by default. The Google Maps map loads only after third-party cookies are accepted."
+        },
+        {
+          "title": "Security",
+          "body": "The site is served over HTTPS only, with security headers (CSP, HSTS) and spam protection on forms. Access to received messages is restricted to authorised Eterna Tech staff."
+        },
+        {
+          "title": "Your rights",
+          "body": "You may request access to, correction or deletion of your data, or object to its processing, by writing to contact@eternatech.net. We reply within 30 days at most."
+        }
+      ]
+    }
+  },
+  "seo": {
+    "homeTitle": "Eterna Tech — Innovative technology solutions in Tlemcen",
+    "homeDescription": "Eterna Tech builds innovative technology solutions in Algeria: web and mobile development, artificial intelligence, design, IT training and networks. Discover Amane Trig, our AI road safety solution.",
+    "defaultTitleTemplate": "%s | Eterna Tech",
+    "keywords": [
+      "Eterna Tech",
+      "technology solutions Algeria",
+      "web development Tlemcen",
+      "mobile app Algeria",
+      "artificial intelligence Algeria",
+      "startup label Algeria",
+      "AI road safety",
+      "Amane Trig"
+    ]
+  }
+}

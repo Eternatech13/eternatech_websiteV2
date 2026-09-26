@@ -1,0 +1,161 @@
+{
+  "common": {
+    "skipToContent": "Skip to main content",
+    "brandLogoAlt": "Eterna Tech logo",
+    "homeLinkLabel": "Eterna Tech — back to home",
+    "contactCta": "Contact us",
+    "learnMore": "Learn more",
+    "readMore": "Learn more",
+    "discover": "Discover",
+    "back": "Back",
+    "openMenu": "Open navigation menu",
+    "closeMenu": "Close menu",
+    "mainNavigation": "Main navigation",
+    "viewAllServices": "View all our services",
+    "seeOnMaps": "View on Google Maps",
+    "callUs": "Call Eterna Tech",
+    "writeToUs": "Email Eterna Tech",
+    "whatsapp": "Message us on WhatsApp",
+    "required": "required",
+    "illustrativeData": "Demo data, shown for illustration only."
+  },
+  "language": {
+    "label": "Language",
+    "switcherLabel": "Choose the website language",
+    "current": "Current language: {language}",
+    "suggestionTitle": "This site is also available in {language}",
+    "suggestionAccept": "View in {language}",
+    "suggestionDismiss": "Stay in English"
+  },
+  "breadcrumb": {
+    "label": "Breadcrumb",
+    "home": "Home"
+  },
+  "hero": {
+    "socialLabel": "Eterna Tech on social media",
+    "keyFiguresLabel": "Eterna Tech key figures",
+    "scrollHint": "Scroll"
+  },
+  "services": {
+    "pageTitle": "Our Services",
+    "pageIntro": "Thirteen services covering every technology need, from development to training.",
+    "categoryLabel": "Category",
+    "processTitle": "Our Process",
+    "processSubtitle": "From the first consultation to ongoing support.",
+    "featuresTitle": "What this service covers",
+    "includesTitle": "What's included",
+    "includesNote": "These items are indicative; they are confirmed in the commercial proposal.",
+    "stepAria": "Step {number} of {total}",
+    "relatedTitle": "Other services you may need",
+    "ctaTitle": "Let's talk about your project",
+    "ctaBody": "Tell us what you need: we come back to you with a clear proposal and a realistic timeline.",
+    "ctaButton": "Get in touch",
+    "cardLinkAria": "Learn more about the {name} service"
+  },
+  "solutions": {
+    "pageTitle": "Our Solutions",
+    "badgePrefix": "Solution",
+    "featuresLabel": "{name} features",
+    "specsTitle": "At a glance",
+    "audienceTitle": "Who is it for?",
+    "demoCta": "Request a demo",
+    "dashboardCaption": "Interface preview",
+    "expertiseUsedIn": "Used in:",
+    "keyPointsLabel": "Key capabilities",
+    "capabilitiesTitle": "Features",
+    "howItWorksTitle": "How it works",
+    "benefitsTitle": "Benefits",
+    "benefitsNote": "Figures provided by Eterna Tech, to be backed by a source before publication."
+  },
+  "about": {
+    "pageTitle": "About",
+    "figuresLabel": "Key figures",
+    "missionLabel": "Our mission and values",
+    "approachLabel": "Our approach",
+    "ctaTitle": "Let's talk about your project",
+    "ctaBody": "A technology need, an idea to shape, a training session to organise? Write to us.",
+    "ctaButton": "Go to the contact page",
+    "teamLinkedin": "LinkedIn profile of {name}"
+  },
+  "contact": {
+    "pageTitle": "Contact",
+    "formTitle": "Send us a message",
+    "formIntro": "Fields marked with an asterisk are required.",
+    "fields": {
+      "name": "Full name",
+      "email": "Email",
+      "phone": "Phone",
+      "company": "Company",
+      "subject": "Subject",
+      "message": "Message"
+    },
+    "placeholders": {
+      "name": "Amine Benali",
+      "email": "you@company.com",
+      "phone": "+213 6 00 00 00 00",
+      "company": "Your company name",
+      "subject": "Choose a subject",
+      "message": "Describe your need in a few lines."
+    },
+    "optional": "optional",
+    "submit": "Send message",
+    "submitting": "Sending…",
+    "success": "Thank you, your message has reached us. We reply within two working days. A confirmation email is on its way.",
+    "error": "Sending failed. Try again in a moment or email us directly at {email}.",
+    "errors": {
+      "name": "Enter your full name (at least 2 characters).",
+      "email": "Enter a valid email address.",
+      "phone": "This phone number is not valid.",
+      "subject": "Choose a subject.",
+      "message": "Your message must be at least 20 characters long.",
+      "captcha": "Please confirm you are not a robot.",
+      "rateLimit": "Too many attempts. Wait a minute before trying again."
+    },
+    "captchaLabel": "Spam protection",
+    "infoTitle": "Contact details",
+    "addressLabel": "Address",
+    "phoneLabel": "Phone",
+    "emailLabel": "Email",
+    "hoursLabel": "Opening hours",
+    "mapTitle": "Find us",
+    "mapConsent": "The Google Maps map is loaded from a third-party service. Accept third-party cookies to display it.",
+    "mapConsentButton": "Show the map",
+    "mapFrameTitle": "Map showing the Eterna Tech offices in Tlemcen"
+  },
+  "newsletter": {
+    "emailLabel": "Your email address",
+    "emailPlaceholder": "Your email address",
+    "submit": "Subscribe",
+    "submitting": "Subscribing…",
+    "success": "You're subscribed. Thank you for your trust.",
+    "error": "Subscription failed. Check your address and try again.",
+    "invalidEmail": "Enter a valid email address."
+  },
+  "footer": {
+    "navigationLabel": "Site map",
+    "socialLabel": "Eterna Tech on social media",
+    "copyright": "© {year} Eterna Tech. All rights reserved.",
+    "localTime": "Local time",
+    "cookiesSettings": "Cookie settings"
+  },
+  "cookies": {
+    "title": "Cookies",
+    "body": "We use cookies that are strictly necessary for the site to work. With your consent, we also enable audience measurement and third-party content such as the Google Maps map.",
+    "accept": "Accept all",
+    "reject": "Reject non-essential cookies",
+    "privacyLink": "Read the privacy policy",
+    "reopen": "Cookie settings",
+    "savedAccepted": "Third-party cookies accepted.",
+    "savedRejected": "Non-essential cookies rejected."
+  },
+  "notFound": {
+    "title": "Page not found",
+    "body": "The page you are looking for does not exist or has been moved.",
+    "cta": "Back to home"
+  },
+  "error": {
+    "title": "Something went wrong",
+    "body": "We could not display this page. Try again or go back to the home page.",
+    "retry": "Try again"
+  }
+}

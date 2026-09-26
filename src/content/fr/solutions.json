@@ -1,0 +1,226 @@
+{
+  "intro": {
+    "badge": "Innovation & Technologie",
+    "title": "Nos Solutions",
+    "subtitle": "Découvrez nos solutions innovantes qui transforment les défis en opportunités"
+  },
+  "items": [
+    {
+      "slug": "amane-trig",
+      "name": "Amane Trig",
+      "title": "Sécurité Routière Intelligente",
+      "description": "Amane Trig est un dispositif de sécurité routière basé sur l'intelligence artificielle, conçu pour surveiller en temps réel le comportement du conducteur et l'environnement routier.",
+      "textSide": "start",
+      "accent": "primary",
+      "logo": "/images/solutions/amanetrig-logo.png",
+      "features": [
+        {
+          "title": "Double dashcam IA",
+          "description": "Deux caméras filment en continu la route et le conducteur ; l'IA analyse les images directement dans le véhicule.",
+          "icon": "Camera"
+        },
+        {
+          "title": "Analyse comportementale",
+          "description": "Détection des comportements à risque du conducteur : distraction, fatigue, usage du téléphone.",
+          "icon": "Activity"
+        },
+        {
+          "title": "Plateforme web",
+          "description": "Un tableau de bord pour suivre les trajets, les événements et les indicateurs de chaque véhicule.",
+          "icon": "LayoutDashboard"
+        },
+        {
+          "title": "Alertes temps réel",
+          "description": "Avertissements sonores et visuels immédiats en cas de danger, remontés aussi sur la plateforme.",
+          "icon": "BellRing"
+        }
+      ],
+      "dashboard": [
+        {
+          "id": "score",
+          "kind": "score",
+          "title": "Score de conduite",
+          "icon": "Gauge",
+          "headline": "87/100",
+          "tags": ["Prudent", "Stable"],
+          "metrics": [
+            { "label": "Trajets analysés", "value": "12" },
+            { "label": "Distance parcourue", "value": "143 km" },
+            { "label": "Alertes du jour", "value": "3" }
+          ]
+        },
+        {
+          "id": "breakdown",
+          "kind": "breakdown",
+          "title": "Analyse comportementale",
+          "icon": "Activity",
+          "headline": "6 h 45 de conduite surveillée aujourd'hui",
+          "segments": [
+            { "label": "Conduite sûre", "value": 82, "tone": "primary" },
+            { "label": "Distraction", "value": 12, "tone": "accent" },
+            { "label": "Fatigue", "value": 6, "tone": "alert" }
+          ]
+        },
+        {
+          "id": "alert",
+          "kind": "alert",
+          "title": "Alerte temps réel",
+          "icon": "TriangleAlert",
+          "headline": "Distance de sécurité insuffisante",
+          "caption": "il y a 2 min",
+          "tags": ["Caméra route", "Traitée"]
+        }
+      ],
+      "dashboardAltText": "Aperçu illustratif de la plateforme web Amane Trig : score de conduite de 87 sur 100, répartition du temps de conduite et alerte de distance de sécurité insuffisante.",
+      "detail": {
+        "tagline": "Un copilote électronique qui surveille la route et le conducteur, et transforme chaque trajet en données exploitables.",
+        "longDescription": "Amane Trig est un système de sécurité routière de nouvelle génération qui utilise l'intelligence artificielle pour analyser en temps réel le comportement du conducteur et l'environnement routier. Grâce à une double dashcam intelligente et une plateforme web avancée, Amane Trig permet aux entreprises de réduire significativement les accidents, d'améliorer la performance de leurs conducteurs et de protéger leurs véhicules, tout en diminuant les coûts opérationnels liés aux risques routiers.",
+        "howItWorks": [
+          {
+            "title": "Installation",
+            "description": "Installation rapide Plug & Play sur le pare-brise du véhicule."
+          },
+          {
+            "title": "Surveillance",
+            "description": "Double caméra IA surveille le conducteur et la route en temps réel."
+          },
+          {
+            "title": "Analyse",
+            "description": "L'IA détecte les comportements à risque et les situations dangereuses."
+          },
+          {
+            "title": "Alertes",
+            "description": "Notifications instantanées au conducteur et au gestionnaire de flotte."
+          }
+        ],
+        "capabilities": [
+          {
+            "title": "Double Dashcam IA",
+            "description": "Caméra intérieure et extérieure avec analyse IA pour une surveillance complète du véhicule.",
+            "icon": "Camera"
+          },
+          {
+            "title": "Détection de Fatigue",
+            "description": "Surveillance des signes de fatigue et de somnolence avec alertes immédiates au conducteur.",
+            "icon": "Eye"
+          },
+          {
+            "title": "Alertes Temps Réel",
+            "description": "Notifications instantanées en cas de comportement dangereux ou de situation à risque.",
+            "icon": "TriangleAlert"
+          },
+          {
+            "title": "Plateforme Analytics",
+            "description": "Tableau de bord complet pour suivre les performances et identifier les axes d'amélioration.",
+            "icon": "LayoutDashboard"
+          },
+          {
+            "title": "Connectivité 4G/5G",
+            "description": "Transmission des données en temps réel vers la plateforme cloud sécurisée.",
+            "icon": "Signal"
+          },
+          {
+            "title": "Protection des Données",
+            "description": "Chiffrement de bout en bout et conformité RGPD pour une sécurité maximale.",
+            "icon": "ShieldCheck"
+          }
+        ],
+        "benefits": [
+          "Réduction de 40% des accidents de la route",
+          "Diminution des coûts d'assurance",
+          "Amélioration du comportement des conducteurs",
+          "Preuve vidéo en cas d'incident",
+          "Optimisation de la consommation de carburant",
+          "Conformité aux réglementations de transport"
+        ],
+        "specs": [
+          { "label": "Résolution", "value": "1080p Full HD" },
+          { "label": "Stockage", "value": "128 Go + Cloud" },
+          { "label": "Connectivité", "value": "4G LTE, WiFi, GPS" },
+          { "label": "Installation", "value": "Plug & Play" },
+          { "label": "Alimentation", "value": "12V-24V" },
+          { "label": "Garantie", "value": "2 ans" }
+        ],
+        "audience": {
+          "title": "Pour qui ?",
+          "items": [
+            "Gestionnaires de flottes de véhicules d'entreprise",
+            "Sociétés de transport de personnes et de marchandises",
+            "Loueurs de véhicules et auto-écoles",
+            "Collectivités et services techniques",
+            "Conducteurs particuliers soucieux de leur sécurité"
+          ]
+        },
+        "images": [
+          {
+            "src": "/images/solutions/amanetrig-cam-driver.png",
+            "alt": "Caméra conducteur Amane Trig, avec LED d'état et objectif grand angle",
+            "caption": "Caméra conducteur avec LED d'état et objectif grand angle"
+          },
+          {
+            "src": "/images/solutions/amanetrig-cam-road.png",
+            "alt": "Caméra route Amane Trig, avec anneau LED et vision nocturne",
+            "caption": "Caméra route avec anneau LED et vision nocturne"
+          }
+        ]
+      },
+      "seo": {
+        "title": "Amane Trig — Sécurité routière par intelligence artificielle",
+        "description": "Amane Trig surveille en temps réel le comportement du conducteur et la route grâce à une double dashcam IA, avec alertes immédiates et plateforme web de suivi de flotte."
+      }
+    }
+  ],
+  "expertise": {
+    "intro": {
+      "badge": "Socle technologique",
+      "title": "Expertise Technologique",
+      "subtitle": "Les technologies qui propulsent nos solutions"
+    },
+    "items": [
+      {
+        "id": "ia-ml",
+        "title": "IA & Machine Learning",
+        "description": "Solutions d'IA sur mesure pour automatiser et optimiser les processus métiers",
+        "icon": "BrainCircuit",
+        "points": [
+          "Détection d'objets",
+          "Vision par ordinateur",
+          "Modèles d'IA personnalisés",
+          "Analyse prédictive",
+          "Apprentissage fédéré"
+        ],
+        "usedIn": [
+          { "label": "Amane Trig", "href": "/solutions/amane-trig" },
+          { "label": "Service IA & Machine Learning", "href": "/services/ia-machine-learning" }
+        ],
+        "discover": { "href": "/services/ia-machine-learning" }
+      },
+      {
+        "id": "5g-iot",
+        "title": "5G & IoT",
+        "description": "Connectivité avancée combinant la 5G et l'Internet des objets pour des systèmes intelligents",
+        "icon": "Signal",
+        "points": ["Réseaux 5G", "Capteurs IoT", "Edge computing", "Temps réel"],
+        "usedIn": [
+          { "label": "Amane Trig", "href": "/solutions/amane-trig" },
+          { "label": "Service Réseaux domestiques", "href": "/services/reseaux-domestiques" }
+        ],
+        "discover": { "href": "/services/reseaux-domestiques" }
+      },
+      {
+        "id": "blockchain",
+        "title": "Blockchain & Smart Contracts",
+        "description": "Technologies décentralisées pour sécuriser les transactions et automatiser les processus",
+        "icon": "Link",
+        "points": ["Smart contracts", "Tokenisation", "Traçabilité", "Sécurité décentralisée"],
+        "usedIn": [
+          {
+            "label": "Service Blockchain & Sécurité des Données",
+            "href": "/services/blockchain-securite"
+          }
+        ],
+        "discover": { "href": "/services/blockchain-securite" }
+      }
+    ]
+  }
+}

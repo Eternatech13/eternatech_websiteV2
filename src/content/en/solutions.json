@@ -1,0 +1,226 @@
+{
+  "intro": {
+    "badge": "Innovation & Technology",
+    "title": "Our Solutions",
+    "subtitle": "Discover our innovative solutions that turn challenges into opportunities"
+  },
+  "items": [
+    {
+      "slug": "amane-trig",
+      "name": "Amane Trig",
+      "title": "Intelligent Road Safety",
+      "description": "Amane Trig is an AI-powered road safety device designed to monitor driver behaviour and the road environment in real time.",
+      "textSide": "start",
+      "accent": "primary",
+      "logo": "/images/solutions/amanetrig-logo.png",
+      "features": [
+        {
+          "title": "Dual AI dashcam",
+          "description": "Two cameras continuously record the road and the driver; the AI analyses the footage inside the vehicle.",
+          "icon": "Camera"
+        },
+        {
+          "title": "Behaviour analysis",
+          "description": "Detection of risky driver behaviour: distraction, fatigue, phone use.",
+          "icon": "Activity"
+        },
+        {
+          "title": "Web platform",
+          "description": "A dashboard to follow trips, events and indicators for every vehicle.",
+          "icon": "LayoutDashboard"
+        },
+        {
+          "title": "Real-time alerts",
+          "description": "Immediate audible and visual warnings when danger arises, also reported on the platform.",
+          "icon": "BellRing"
+        }
+      ],
+      "dashboard": [
+        {
+          "id": "score",
+          "kind": "score",
+          "title": "Driving score",
+          "icon": "Gauge",
+          "headline": "87/100",
+          "tags": ["Careful", "Steady"],
+          "metrics": [
+            { "label": "Trips analysed", "value": "12" },
+            { "label": "Distance covered", "value": "143 km" },
+            { "label": "Alerts today", "value": "3" }
+          ]
+        },
+        {
+          "id": "breakdown",
+          "kind": "breakdown",
+          "title": "Behaviour analysis",
+          "icon": "Activity",
+          "headline": "6 h 45 of monitored driving today",
+          "segments": [
+            { "label": "Safe driving", "value": 82, "tone": "primary" },
+            { "label": "Distraction", "value": 12, "tone": "accent" },
+            { "label": "Fatigue", "value": 6, "tone": "alert" }
+          ]
+        },
+        {
+          "id": "alert",
+          "kind": "alert",
+          "title": "Real-time alert",
+          "icon": "TriangleAlert",
+          "headline": "Insufficient safety distance",
+          "caption": "2 min ago",
+          "tags": ["Road camera", "Handled"]
+        }
+      ],
+      "dashboardAltText": "Illustrative preview of the Amane Trig web platform: a driving score of 87 out of 100, a breakdown of driving time and an alert about insufficient safety distance.",
+      "detail": {
+        "tagline": "An electronic co-pilot that watches both the road and the driver, turning every trip into usable data.",
+        "longDescription": "Amane Trig is a next-generation road safety system that uses artificial intelligence to analyse driver behaviour and the road environment in real time. With a dual smart dashcam and an advanced web platform, Amane Trig helps companies significantly reduce accidents, improve their drivers' performance and protect their vehicles, while lowering the operating costs tied to road risk.",
+        "howItWorks": [
+          {
+            "title": "Installation",
+            "description": "Quick plug and play installation on the vehicle windscreen."
+          },
+          {
+            "title": "Monitoring",
+            "description": "The dual AI camera watches the driver and the road in real time."
+          },
+          {
+            "title": "Analysis",
+            "description": "The AI detects risky behaviour and dangerous situations."
+          },
+          {
+            "title": "Alerts",
+            "description": "Instant notifications to the driver and to the fleet manager."
+          }
+        ],
+        "capabilities": [
+          {
+            "title": "Dual AI dashcam",
+            "description": "Interior and exterior cameras with AI analysis for complete vehicle monitoring.",
+            "icon": "Camera"
+          },
+          {
+            "title": "Fatigue detection",
+            "description": "Monitoring of fatigue and drowsiness signs with immediate warnings to the driver.",
+            "icon": "Eye"
+          },
+          {
+            "title": "Real-time alerts",
+            "description": "Instant notifications when behaviour turns dangerous or a risky situation appears.",
+            "icon": "TriangleAlert"
+          },
+          {
+            "title": "Analytics platform",
+            "description": "A complete dashboard to track performance and identify where to improve.",
+            "icon": "LayoutDashboard"
+          },
+          {
+            "title": "4G/5G connectivity",
+            "description": "Real-time data transmission to the secure cloud platform.",
+            "icon": "Signal"
+          },
+          {
+            "title": "Data protection",
+            "description": "End-to-end encryption and GDPR compliance for maximum security.",
+            "icon": "ShieldCheck"
+          }
+        ],
+        "benefits": [
+          "40% reduction in road accidents",
+          "Lower insurance costs",
+          "Improved driver behaviour",
+          "Video evidence in case of an incident",
+          "Optimised fuel consumption",
+          "Compliance with transport regulations"
+        ],
+        "specs": [
+          { "label": "Resolution", "value": "1080p Full HD" },
+          { "label": "Storage", "value": "128 GB + cloud" },
+          { "label": "Connectivity", "value": "4G LTE, WiFi, GPS" },
+          { "label": "Installation", "value": "Plug and play" },
+          { "label": "Power supply", "value": "12V-24V" },
+          { "label": "Warranty", "value": "2 years" }
+        ],
+        "audience": {
+          "title": "Who is it for?",
+          "items": [
+            "Managers of company vehicle fleets",
+            "Passenger and freight transport companies",
+            "Vehicle rental firms and driving schools",
+            "Local authorities and technical services",
+            "Private drivers who care about their safety"
+          ]
+        },
+        "images": [
+          {
+            "src": "/images/solutions/amanetrig-cam-driver.png",
+            "alt": "Amane Trig driver camera, with status LED and wide-angle lens",
+            "caption": "Driver camera with status LED and wide-angle lens"
+          },
+          {
+            "src": "/images/solutions/amanetrig-cam-road.png",
+            "alt": "Amane Trig road camera, with LED ring and night vision",
+            "caption": "Road camera with LED ring and night vision"
+          }
+        ]
+      },
+      "seo": {
+        "title": "Amane Trig — AI-powered road safety",
+        "description": "Amane Trig monitors driver behaviour and the road in real time with a dual AI dashcam, immediate alerts and a web platform for fleet tracking."
+      }
+    }
+  ],
+  "expertise": {
+    "intro": {
+      "badge": "Technology foundation",
+      "title": "Technology Expertise",
+      "subtitle": "The technologies that power our solutions"
+    },
+    "items": [
+      {
+        "id": "ia-ml",
+        "title": "AI & Machine Learning",
+        "description": "Custom AI solutions to automate and optimise business processes",
+        "icon": "BrainCircuit",
+        "points": [
+          "Object detection",
+          "Computer vision",
+          "Custom AI models",
+          "Predictive analytics",
+          "Federated learning"
+        ],
+        "usedIn": [
+          { "label": "Amane Trig", "href": "/solutions/amane-trig" },
+          { "label": "AI & Machine Learning service", "href": "/services/ia-machine-learning" }
+        ],
+        "discover": { "href": "/services/ia-machine-learning" }
+      },
+      {
+        "id": "5g-iot",
+        "title": "5G & IoT",
+        "description": "Advanced connectivity combining 5G and the Internet of Things for intelligent systems",
+        "icon": "Signal",
+        "points": ["5G networks", "IoT sensors", "Edge computing", "Real time"],
+        "usedIn": [
+          { "label": "Amane Trig", "href": "/solutions/amane-trig" },
+          { "label": "Home networks service", "href": "/services/reseaux-domestiques" }
+        ],
+        "discover": { "href": "/services/reseaux-domestiques" }
+      },
+      {
+        "id": "blockchain",
+        "title": "Blockchain & Smart Contracts",
+        "description": "Decentralised technologies to secure transactions and automate processes",
+        "icon": "Link",
+        "points": ["Smart contracts", "Tokenisation", "Traceability", "Decentralised security"],
+        "usedIn": [
+          {
+            "label": "Blockchain & Data Security service",
+            "href": "/services/blockchain-securite"
+          }
+        ],
+        "discover": { "href": "/services/blockchain-securite" }
+      }
+    ]
+  }
+}
