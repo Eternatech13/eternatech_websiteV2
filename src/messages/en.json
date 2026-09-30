@@ -67,6 +67,14 @@
     "benefitsTitle": "Benefits",
     "benefitsNote": "Figures provided by Eterna Tech, to be backed by a source before publication."
   },
+  "faq": {
+    "categoriesLabel": "Frequently asked questions topics",
+    "questionsLabel": "Questions about {category}",
+    "empty": "No questions in this topic yet.",
+    "moreTitle": "Your question is not here?",
+    "moreBody": "Write to us or give us a call: we reply within two working days.",
+    "moreCta": "Get in touch"
+  },
   "about": {
     "pageTitle": "About",
     "figuresLabel": "Key figures",

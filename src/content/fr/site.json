@@ -6,11 +6,13 @@
     { "label": "Accueil", "href": "/" },
     { "label": "Services", "href": "/services" },
     { "label": "Solutions", "href": "/solutions" },
+    { "label": "FAQ", "href": "/faq" },
     { "label": "À propos", "href": "/a-propos" },
     { "label": "Contact", "href": "/contact" }
   ],
   "hero": {
     "badge": "L'INNOVATION AU SERVICE DE VOTRE CROISSANCE",
+    "backgroundImage": "/images/hero-background.svg",
     "titleLine1": "Innovation Technologique",
     "titleLine2Start": "pour un Avenir ",
     "titleLine2Accent": "Durable",
@@ -68,6 +70,7 @@
           { "label": "Accueil", "href": "/" },
           { "label": "Services", "href": "/services" },
           { "label": "Solutions", "href": "/solutions" },
+          { "label": "FAQ", "href": "/faq" },
           { "label": "À propos", "href": "/a-propos" },
           { "label": "Contact", "href": "/contact" }
         ]

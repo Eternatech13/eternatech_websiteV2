@@ -1,0 +1,101 @@
+{
+  "intro": {
+    "badge": "Need help?",
+    "title": "Frequently asked questions",
+    "subtitle": "Answers to the questions we are asked most often about our services, our projects and our solutions."
+  },
+  "categories": [
+    {
+      "id": "services",
+      "label": "Our services",
+      "icon": "Sparkles",
+      "items": [
+        {
+          "question": "What services does Eterna Tech offer?",
+          "answer": "Thirteen services across five areas: web and mobile development, including e-commerce; artificial intelligence and security, with blockchain; design, covering 3D modelling, graphic design and UI/UX; guidance, with IT training and the Startup and Innovative Project labels; and infrastructure, with home network installation."
+        },
+        {
+          "question": "Do you work with individuals or only with companies?",
+          "answer": "Both. Most of our services are aimed at companies and project founders, but home network installation and IT training are also open to individuals."
+        },
+        {
+          "question": "Do you work outside Tlemcen?",
+          "answer": "Our offices are at the I2E Student Center of the University of Tlemcen. Development, design and artificial intelligence projects are run remotely, anywhere in Algeria and beyond. On-site work, such as network installation, is focused on Tlemcen and the surrounding region."
+        },
+        {
+          "question": "Do you provide maintenance after delivery?",
+          "answer": "Yes. A web project includes six months of technical support, with security updates and preventive maintenance; a mobile app includes three. Beyond that period, a maintenance contract can be set up to match your needs."
+        }
+      ]
+    },
+    {
+      "id": "projets",
+      "label": "How a project runs",
+      "icon": "Code",
+      "items": [
+        {
+          "question": "How does a project work with you?",
+          "answer": "Every service has its own process, detailed on its page. For a website it runs in seven steps: needs analysis, design and wireframing, development, testing and optimisation, hosting and domain name, go-live and training, then maintenance and support."
+        },
+        {
+          "question": "Which technologies do you use?",
+          "answer": "For the web, React, Next.js and Node.js. For mobile, native or cross-platform development with React Native or Flutter. For artificial intelligence, computer vision, predictive analytics and federated learning models, trained on your own data."
+        },
+        {
+          "question": "How long does it take to build a website or an app?",
+          "answer": "It depends on the scope. A showcase website is delivered in a few weeks; a custom platform or a mobile application takes several months. We set a realistic timeline in the proposal itself, with regular validation points."
+        },
+        {
+          "question": "Who owns the code and the credentials at the end of the project?",
+          "answer": "You do. At delivery we hand over the source code, the design source files and the hosting and domain name credentials, together with training so your team can take over."
+        }
+      ]
+    },
+    {
+      "id": "amane-trig",
+      "label": "Amane Trig",
+      "icon": "Car",
+      "items": [
+        {
+          "question": "What is Amane Trig?",
+          "answer": "A road safety solution developed in-house by Eterna Tech. Two cameras, one facing the road and one facing the cabin, analyse driver behaviour and the road environment in real time using artificial intelligence, and raise an immediate alert when danger appears."
+        },
+        {
+          "question": "How is the device installed in a vehicle?",
+          "answer": "Installation is plug and play on the windscreen, with no mechanical work. The device runs on 12V-24V, records in 1080p and offers 128 GB of local storage backed by the cloud, with a two-year warranty."
+        },
+        {
+          "question": "Where is the footage processed?",
+          "answer": "Inside the vehicle. The driver is warned immediately, and only time-stamped events and aggregated indicators are sent to the web platform. Raw video streams never leave the vehicle, which limits both the volume of data transmitted and the exposure of recordings."
+        },
+        {
+          "question": "Can we request a demo?",
+          "answer": "Yes. Select “Amane Trig demo request” in the contact form, or call us directly on +213 659 793 110. We can run the demo at our offices or on one of your own vehicles."
+        }
+      ]
+    },
+    {
+      "id": "accompagnement",
+      "label": "Labels & training",
+      "icon": "Award",
+      "items": [
+        {
+          "question": "What does your label support cover?",
+          "answer": "We cover both the Startup label and the Innovative Project label: eligibility review, assembling the administrative file, writing the technical application and the business plan, preparing for the committee hearing, then follow-up until the label is granted and afterwards."
+        },
+        {
+          "question": "What benefits does the Startup label bring?",
+          "answer": "Tax benefits and exemptions, access to dedicated funding schemes, support from ANADE, banking facilities and introductions to the Algerian entrepreneurial ecosystem."
+        },
+        {
+          "question": "Are your training sessions on site or remote?",
+          "answer": "Both. On site in Tlemcen or remotely, in small groups so that practice comes first. The programme is built on exercises and datasets inspired by your own cases, and ends with an assessment and a training certificate."
+        },
+        {
+          "question": "Do participants need a technical background?",
+          "answer": "No. A placement test and a preliminary interview let us adapt the programme to the real level of the participants, from complete beginners to experienced profiles, and set a pace that fits their availability."
+        }
+      ]
+    }
+  ]
+}

@@ -14,6 +14,7 @@
       "category": "التطوير",
       "icon": "Code",
       "accent": "primary",
+      "image": "/images/services/developpement-web.jpg",
       "hero": {
         "title": "تطوير الويب",
         "intro": "ننشئ مواقع ويب مخصّصة وعصرية وعالية الأداء، تعكس هوية مؤسستكم وتستجيب لأهدافكم التجارية."
@@ -83,6 +84,7 @@
       "category": "التطوير",
       "icon": "Smartphone",
       "accent": "secondary",
+      "image": "/images/services/applications-mobiles.jpg",
       "hero": {
         "title": "تطبيقات الهاتف المحمول",
         "intro": "تطوير تطبيقات iOS وأندرويد أصلية أو متعدّدة الأنظمة، لتقديم تجربة استخدام استثنائية."
@@ -144,6 +146,7 @@
       "category": "الذكاء الاصطناعي والأمن",
       "icon": "BrainCircuit",
       "accent": "accent",
+      "image": "/images/services/ia-machine-learning.jpg",
       "hero": {
         "title": "الذكاء الاصطناعي وتعلّم الآلة",
         "intro": "إنشاء نماذج ذكاء اصطناعي مخصّصة وتعلّم آلي وتعلّم اتحادي من أجل حلول ذكية ومبتكرة."
@@ -213,6 +216,7 @@
       "category": "التصميم",
       "icon": "Box",
       "accent": "primary",
+      "image": "/images/services/modelisation-3d.jpg",
       "hero": {
         "title": "النمذجة ثلاثية الأبعاد والنماذج الأولية",
         "intro": "إنشاء نماذج ثلاثية الأبعاد احترافية ونماذج أولية لتصوّر مشاريعكم قبل إنجازها."
@@ -274,6 +278,7 @@
       "category": "التصميم",
       "icon": "PenTool",
       "accent": "secondary",
+      "image": "/images/services/conception-graphique.jpg",
       "hero": {
         "title": "التصميم الجرافيكي والهوية البصرية",
         "intro": "إنشاء هويات بصرية متفرّدة ووسائط تسويقية مؤثّرة لعلامتكم."
@@ -335,6 +340,7 @@
       "category": "التصميم",
       "icon": "LayoutTemplate",
       "accent": "accent",
+      "image": "/images/services/ui-ux.jpg",
       "hero": {
         "title": "تصميم واجهات وتجربة المستخدم",
         "intro": "تصميم واجهات مستخدم سهلة الاستخدام وتجارب مستخدم محسّنة."
@@ -396,6 +402,7 @@
       "category": "المواكبة",
       "icon": "GraduationCap",
       "accent": "primary",
+      "image": "/images/services/formation-it.jpg",
       "hero": {
         "title": "التكوين في تقنيات المعلومات",
         "intro": "برامج تكوين مخصّصة لتطوير الكفاءات التقنية لفرقكم."
@@ -457,6 +464,7 @@
       "category": "البنية التحتية",
       "icon": "Wifi",
       "accent": "secondary",
+      "image": "/images/services/reseaux-domestiques.jpg",
       "hero": {
         "title": "تركيب الشبكات المنزلية",
         "intro": "تهيئة وتركيب شبكات منزلية آمنة من أجل اتصال أمثل."
@@ -518,6 +526,7 @@
       "category": "الذكاء الاصطناعي والأمن",
       "icon": "ShieldCheck",
       "accent": "accent",
+      "image": "/images/services/blockchain-securite.jpg",
       "hero": {
         "title": "البلوكشين وأمن البيانات",
         "intro": "حلول بلوكشين مبتكرة واستراتيجيات أمن سيبراني لحماية أصولكم الرقمية."
@@ -579,6 +588,7 @@
       "category": "التطوير",
       "icon": "ShoppingCart",
       "accent": "primary",
+      "image": "/images/services/e-commerce.jpg",
       "hero": {
         "title": "التجارة الإلكترونية",
         "intro": "إنشاء متاجر إلكترونية عالية الأداء لتنمية مبيعاتكم على الإنترنت."
@@ -640,6 +650,7 @@
       "category": "التسويق",
       "icon": "Megaphone",
       "accent": "secondary",
+      "image": "/images/services/publicite.jpg",
       "hero": {
         "title": "وكالة إشهار",
         "intro": "استراتيجيات تسويق رقمي وحملات إشهارية لتوسيع حضوركم."
@@ -701,6 +712,7 @@
       "category": "المواكبة",
       "icon": "Lightbulb",
       "accent": "accent",
+      "image": "/images/services/label-projet-innovant.jpg",
       "hero": {
         "title": "إيداع علامة مشروع مبتكر",
         "intro": "مواكبة شاملة للحصول على علامة المشروع المبتكر والنفاذ إلى التمويلات."
@@ -762,6 +774,7 @@
       "category": "المواكبة",
       "icon": "Award",
       "accent": "primary",
+      "image": "/images/services/label-startup.jpg",
       "hero": {
         "title": "إيداع علامة ستارت أب",
         "intro": "مساعدة شاملة للحصول على علامة ستارت أب وكل الامتيازات الجبائية المرتبطة بها."

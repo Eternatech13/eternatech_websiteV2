@@ -67,6 +67,14 @@
     "benefitsTitle": "Bénéfices",
     "benefitsNote": "Chiffres communiqués par Eterna Tech, à confirmer par une source avant publication."
   },
+  "faq": {
+    "categoriesLabel": "Thèmes de la foire aux questions",
+    "questionsLabel": "Questions sur le thème {category}",
+    "empty": "Aucune question dans ce thème pour le moment.",
+    "moreTitle": "Votre question n'est pas là ?",
+    "moreBody": "Écrivez-nous ou appelez-nous : nous répondons sous 48 heures ouvrées.",
+    "moreCta": "Nous contacter"
+  },
   "about": {
     "pageTitle": "À propos",
     "figuresLabel": "Chiffres clés",

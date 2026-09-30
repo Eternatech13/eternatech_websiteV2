@@ -61,7 +61,8 @@ function Card({ card, index }: { card: SolutionDashboardCard; index: number }) {
       {card.headline && (
         <p
           className={cn(
-            'mt-4 font-light text-secondary',
+            'mt-4 text-secondary',
+            card.kind === 'score' ? 'font-bold' : 'font-normal',
             card.kind === 'score' ? 'text-3xl' : 'text-sm leading-relaxed',
           )}
         >

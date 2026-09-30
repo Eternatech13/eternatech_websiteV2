@@ -34,7 +34,7 @@ export function PageHero({
         {breadcrumb && <Breadcrumb items={breadcrumb} />}
 
         <Reveal className="mt-6 max-w-3xl">
-          <h1 className="text-3xl leading-tight font-light tracking-tight sm:text-4xl md:text-5xl">
+          <h1 className="text-3xl leading-tight font-bold tracking-tight sm:text-4xl md:text-5xl">
             <span className="text-white">{title}</span>
             {titleAccent && <span className="text-brand-gradient-light">{titleAccent}</span>}
           </h1>

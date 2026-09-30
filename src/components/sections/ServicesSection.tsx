@@ -31,7 +31,7 @@ export async function ServicesSection({ locale }: { locale: Locale }) {
             <Badge tone="light" icon={Sparkles}>
               {intro.badge}
             </Badge>
-            <h2 className="mt-5 text-3xl leading-tight font-light tracking-tight text-secondary sm:text-4xl md:text-5xl">
+            <h2 className="mt-5 text-3xl leading-tight font-bold tracking-tight text-secondary sm:text-4xl md:text-5xl">
               {intro.title}
             </h2>
             <p className="mt-4 max-w-xl text-base leading-relaxed text-secondary/70">
@@ -62,7 +62,7 @@ export async function ServicesSection({ locale }: { locale: Locale }) {
           {/* Tuile d'appel à l'action, qui complète la dernière rangée */}
           <RevealItem as="li" className="h-full">
             <div className="flex h-full flex-col justify-center rounded-card border border-dashed border-accent/50 bg-accent/5 p-8 text-center">
-              <h3 className="text-lg font-medium text-secondary">{t('ctaTitle')}</h3>
+              <h3 className="text-lg font-semibold text-secondary">{t('ctaTitle')}</h3>
               <p className="mt-2.5 text-sm leading-relaxed text-secondary/70">{t('ctaBody')}</p>
               <ArrowLink href="/contact" className="mt-5 justify-center">
                 {t('ctaButton')}

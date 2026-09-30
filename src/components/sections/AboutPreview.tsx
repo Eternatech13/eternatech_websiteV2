@@ -28,7 +28,7 @@ export async function AboutPreview({ locale }: { locale: Locale }) {
           <Badge tone="dark" icon={Building2}>
             {preview.badge}
           </Badge>
-          <h2 className="mt-5 text-3xl leading-tight font-light tracking-tight sm:text-4xl md:text-5xl">
+          <h2 className="mt-5 text-3xl leading-tight font-bold tracking-tight sm:text-4xl md:text-5xl">
             <span className="text-white">{preview.title}</span>
             <span className="text-brand-gradient-light">{preview.titleAccent}</span>
           </h2>

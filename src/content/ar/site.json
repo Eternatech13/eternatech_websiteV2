@@ -6,11 +6,13 @@
     { "label": "الرئيسية", "href": "/" },
     { "label": "الخدمات", "href": "/services" },
     { "label": "الحلول", "href": "/solutions" },
+    { "label": "الأسئلة المتكرّرة", "href": "/faq" },
     { "label": "من نحن", "href": "/a-propos" },
     { "label": "اتصل بنا", "href": "/contact" }
   ],
   "hero": {
     "badge": "الابتكار في خدمة نموّكم",
+    "backgroundImage": "/images/hero-background.svg",
     "titleLine1": "ابتكار تكنولوجي",
     "titleLine2Start": "من أجل مستقبل ",
     "titleLine2Accent": "مستدام",
@@ -68,6 +70,7 @@
           { "label": "الرئيسية", "href": "/" },
           { "label": "الخدمات", "href": "/services" },
           { "label": "الحلول", "href": "/solutions" },
+          { "label": "الأسئلة المتكرّرة", "href": "/faq" },
           { "label": "من نحن", "href": "/a-propos" },
           { "label": "اتصل بنا", "href": "/contact" }
         ]

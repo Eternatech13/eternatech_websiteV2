@@ -95,7 +95,7 @@ export default async function ServicePage({
               <span className={cn('size-1.5 rounded-full', colors.dot)} aria-hidden="true" />
               {service.category}
             </p>
-            <h1 className="mt-3 text-3xl leading-tight font-light tracking-tight sm:text-4xl md:text-5xl">
+            <h1 className="mt-3 text-3xl leading-tight font-bold tracking-tight sm:text-4xl md:text-5xl">
               <span className="text-brand-gradient-light">{service.hero.title}</span>
             </h1>
             <p className="mt-5 text-base leading-relaxed text-on-dark sm:text-lg">
@@ -115,7 +115,7 @@ export default async function ServicePage({
         <section className="bg-white py-20 md:py-24">
           <div className="container-page grid gap-12 lg:grid-cols-2 lg:gap-16">
             <Reveal>
-              <h2 className="text-2xl leading-tight font-light text-secondary sm:text-3xl">
+              <h2 className="text-2xl leading-tight font-bold text-secondary sm:text-3xl">
                 {t('featuresTitle')}
               </h2>
               <ul className="mt-6 grid gap-3 sm:grid-cols-2">
@@ -135,7 +135,7 @@ export default async function ServicePage({
             </Reveal>
 
             <Reveal className="rounded-card border border-secondary/10 bg-surface p-6 sm:p-8">
-              <h2 className="text-2xl leading-tight font-light text-secondary sm:text-3xl">
+              <h2 className="text-2xl leading-tight font-bold text-secondary sm:text-3xl">
                 {t('includesTitle')}
               </h2>
               <ul className="mt-6 space-y-3">
@@ -164,7 +164,7 @@ export default async function ServicePage({
         {/* 3 liens vers d'autres services (§ 7.5) */}
         <section className="bg-surface py-20 md:py-24">
           <div className="container-page">
-            <h2 className="text-2xl leading-tight font-light text-secondary sm:text-3xl">
+            <h2 className="text-2xl leading-tight font-bold text-secondary sm:text-3xl">
               {t('relatedTitle')}
             </h2>
             <RevealGroup as="ul" stagger={0.1} className="mt-10 grid gap-7 sm:grid-cols-2 lg:grid-cols-3">

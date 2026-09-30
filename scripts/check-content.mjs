@@ -30,6 +30,7 @@ for (const locale of LOCALES) {
     services: read(locale, 'services'),
     solutions: read(locale, 'solutions'),
     about: read(locale, 'about'),
+    faq: read(locale, 'faq'),
   };
 }
 
@@ -39,7 +40,7 @@ const solutionSlugs = reference.solutions.items.map((item) => item.slug);
 
 // --- Alignement des langues -------------------------------------------------
 for (const locale of LOCALES) {
-  const { services, solutions, about, site } = content[locale];
+  const { services, solutions, about, site, faq } = content[locale];
 
   const slugs = services.items.map((item) => item.slug);
   if (slugs.join(',') !== serviceSlugs.join(',')) {
@@ -68,6 +69,15 @@ for (const locale of LOCALES) {
       if (item[list].length !== ref[list].length) {
         fail(`${label} : ${list} — ${item[list].length} entrées contre ${ref[list].length} en français`);
       }
+    }
+
+    // Image de carte : facultative (§ 7.4), mais si elle est déclarée elle doit
+    // exister sur disque et être identique dans les trois langues.
+    if (item.image !== ref.image) {
+      fail(`${label} : image différente du français`);
+    }
+    if (item.image && !existsSync(join(ROOT, 'public', item.image.replace(/^\//, '')))) {
+      fail(`${label} : image absente de public/ — ${item.image}`);
     }
     item.process.forEach((step, i) => {
       if (!step.title || !step.description) fail(`${label} : étape ${i + 1} incomplète`);
@@ -142,6 +152,31 @@ for (const locale of LOCALES) {
       fail(`[${locale}] à propos : chiffre « ${figure.value} » sans libellé pour lecteur d'écran (§ 9.6)`);
   });
 
+  // Foire aux questions
+  const refFaq = reference.faq;
+  if (faq.categories.length !== refFaq.categories.length) {
+    fail(`[${locale}] FAQ : ${faq.categories.length} thèmes contre ${refFaq.categories.length} en français`);
+  }
+  if (!faq.intro?.badge || !faq.intro?.title || !faq.intro?.subtitle) {
+    fail(`[${locale}] FAQ : en-tête incomplet`);
+  }
+  faq.categories.forEach((category, index) => {
+    const ref = refFaq.categories[index];
+    const label = `[${locale}] FAQ ${category.id}`;
+    if (!ref) return;
+    if (category.id !== ref.id) fail(`${label} : identifiant différent du français (${ref.id})`);
+    if (category.icon !== ref.icon) fail(`${label} : icône différente du français`);
+    if (!category.label) fail(`${label} : libellé d'onglet manquant`);
+    if (category.items.length !== ref.items.length) {
+      fail(`${label} : ${category.items.length} questions contre ${ref.items.length} en français`);
+    }
+    category.items.forEach((item, position) => {
+      if (!item.question || !item.answer) {
+        fail(`${label} : question ${position + 1} incomplète`);
+      }
+    });
+  });
+
   // Liens de navigation et de pied de page
   const navHrefs = [
     ...site.nav.map((i) => i.href),
@@ -152,6 +187,7 @@ for (const locale of LOCALES) {
     '/',
     '/services',
     '/solutions',
+    '/faq',
     '/a-propos',
     '/contact',
     '/mentions-legales',
@@ -185,8 +221,21 @@ if (errors.length > 0) {
 }
 
 const totalSteps = reference.services.items.reduce((sum, item) => sum + item.process.length, 0);
+const withImage = reference.services.items.filter((item) => item.image);
+const withoutImage = reference.services.items.filter((item) => !item.image);
+
 console.log('✓ Contenu valide');
 console.log(`  langues        : ${LOCALES.join(', ')}`);
 console.log(`  services       : ${serviceSlugs.length} (${totalSteps} étapes de processus par langue)`);
+console.log(
+  `  images cartes  : ${withImage.length}/${serviceSlugs.length}` +
+    (withoutImage.length > 0
+      ? ` — visuel de remplacement pour ${withoutImage.map((item) => item.slug).join(', ')}`
+      : ''),
+);
 console.log(`  solutions      : ${solutionSlugs.length} — ${solutionSlugs.join(', ')}`);
 console.log(`  expertises     : ${reference.solutions.expertise.items.length}`);
+const faqQuestions = reference.faq.categories.reduce((sum, item) => sum + item.items.length, 0);
+console.log(
+  `  FAQ            : ${reference.faq.categories.length} thèmes, ${faqQuestions} questions par langue`,
+);

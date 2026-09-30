@@ -10,6 +10,8 @@ interface LogoProps {
   /** Rend le logo sans lien, pour les en-têtes de fiche (§ 7.5). */
   asLink?: boolean;
   showWordmark?: boolean;
+  /** `md` : header. `lg` : bloc de marque du footer (§ 10.1). */
+  size?: 'md' | 'lg';
 }
 
 /**
@@ -24,8 +26,10 @@ export function Logo({
   className,
   asLink = true,
   showWordmark = true,
+  size = 'md',
 }: LogoProps) {
   const t = useTranslations('common');
+  const isLarge = size === 'lg';
 
   const content = (
     <>
@@ -33,15 +37,18 @@ export function Logo({
         src="/logo.png"
         alt={asLink ? '' : t('brandLogoAlt')}
         aria-hidden={asLink ? 'true' : undefined}
-        width={40}
-        height={40}
+        width={48}
+        height={48}
         priority
-        className="size-9 shrink-0 object-contain"
+        className={cn('shrink-0 object-contain', isLarge ? 'size-10' : 'size-9')}
       />
       {showWordmark && (
         <span
           className={cn(
-            'text-base font-light tracking-wide whitespace-nowrap sm:text-lg',
+            'tracking-tight whitespace-nowrap',
+            isLarge
+              ? 'text-xl font-medium md:text-2xl'
+              : 'text-base font-light tracking-wide sm:text-lg',
             tone === 'light' ? 'text-white' : 'text-secondary',
           )}
         >

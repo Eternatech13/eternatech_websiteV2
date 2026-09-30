@@ -36,7 +36,7 @@ function Inner({ children, size }: { children: ReactNode; size: Size }) {
   return (
     <span
       className={cn(
-        'flex w-full items-center justify-center gap-2 rounded-[9px] bg-secondary-900 font-light text-white',
+        'flex w-full items-center justify-center gap-2 rounded-[9px] bg-secondary-900 font-medium text-white',
         sizes[size],
       )}
     >

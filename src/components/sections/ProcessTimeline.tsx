@@ -28,7 +28,7 @@ export async function ProcessTimeline({
     <section className="bg-surface py-20 md:py-28">
       <div className="container-page">
         <div className="text-center">
-          <h2 className="text-2xl leading-tight font-light tracking-tight text-secondary sm:text-3xl md:text-4xl">
+          <h2 className="text-2xl leading-tight font-bold tracking-tight text-secondary sm:text-3xl md:text-4xl">
             {title}
           </h2>
           {subtitle && (
@@ -77,7 +77,7 @@ export async function ProcessTimeline({
                     <p className="text-xs font-medium tracking-wide uppercase text-accent">
                       {t('stepAria', { number: index + 1, total: steps.length })}
                     </p>
-                    <h3 className="mt-2 text-lg font-medium text-secondary">{step.title}</h3>
+                    <h3 className="mt-2 text-lg font-semibold text-secondary">{step.title}</h3>
                     <p className="mt-2.5 text-sm leading-relaxed text-secondary/70">
                       {step.description}
                     </p>

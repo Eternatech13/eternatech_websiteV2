@@ -1,0 +1,101 @@
+{
+  "intro": {
+    "badge": "Besoin d'aide ?",
+    "title": "Questions fréquentes",
+    "subtitle": "Les réponses aux questions que l'on nous pose le plus souvent sur nos services, nos projets et nos solutions."
+  },
+  "categories": [
+    {
+      "id": "services",
+      "label": "Nos services",
+      "icon": "Sparkles",
+      "items": [
+        {
+          "question": "Quels services propose Eterna Tech ?",
+          "answer": "Treize services répartis en cinq domaines : le développement web et mobile, dont l'e-commerce ; l'intelligence artificielle et la sécurité, avec la blockchain ; le design, qui couvre la modélisation 3D, la conception graphique et l'UI/UX ; l'accompagnement, avec la formation IT et les labels Startup et Projet innovant ; et l'infrastructure, avec l'installation de réseaux domestiques."
+        },
+        {
+          "question": "Travaillez-vous avec les particuliers ou uniquement avec les entreprises ?",
+          "answer": "Les deux. La plupart de nos services s'adressent aux entreprises et aux porteurs de projets, mais l'installation de réseaux domestiques et la formation IT sont également ouvertes aux particuliers."
+        },
+        {
+          "question": "Intervenez-vous en dehors de Tlemcen ?",
+          "answer": "Nos bureaux sont au I2E Student Center de l'Université de Tlemcen. Les projets de développement, de design et d'intelligence artificielle se mènent à distance, partout en Algérie et au-delà. Les interventions sur site, comme l'installation de réseaux, se concentrent sur Tlemcen et sa région."
+        },
+        {
+          "question": "Assurez-vous la maintenance après la livraison ?",
+          "answer": "Oui. Un projet web inclut six mois de support technique, avec mises à jour de sécurité et maintenance préventive ; une application mobile en inclut trois. Au-delà de cette période, un contrat de maintenance peut être mis en place selon vos besoins."
+        }
+      ]
+    },
+    {
+      "id": "projets",
+      "label": "Déroulement d'un projet",
+      "icon": "Code",
+      "items": [
+        {
+          "question": "Comment se déroule un projet chez vous ?",
+          "answer": "Chaque service a son propre processus, détaillé sur sa fiche. Pour un site web, il compte sept étapes : analyse des besoins, conception et maquettage, développement, tests et optimisation, hébergement et nom de domaine, mise en ligne et formation, puis maintenance et support."
+        },
+        {
+          "question": "Quelles technologies utilisez-vous ?",
+          "answer": "Pour le web, React, Next.js et Node.js. Pour le mobile, du développement natif ou multiplateforme avec React Native ou Flutter. Pour l'intelligence artificielle, des modèles de vision par ordinateur, d'analyse prédictive et d'apprentissage fédéré, entraînés sur vos données."
+        },
+        {
+          "question": "Combien de temps prend la création d'un site ou d'une application ?",
+          "answer": "Cela dépend du périmètre. Un site vitrine se livre en quelques semaines, une plateforme sur mesure ou une application mobile demande plusieurs mois. Nous fixons un calendrier réaliste dès la proposition, avec des points de validation réguliers."
+        },
+        {
+          "question": "À qui appartiennent le code et les accès à la fin du projet ?",
+          "answer": "À vous. À la livraison, nous vous remettons le code source, les fichiers sources de design ainsi que les accès à l'hébergement et au nom de domaine, accompagnés d'une formation à la prise en main."
+        }
+      ]
+    },
+    {
+      "id": "amane-trig",
+      "label": "Amane Trig",
+      "icon": "Car",
+      "items": [
+        {
+          "question": "Qu'est-ce qu'Amane Trig ?",
+          "answer": "Une solution de sécurité routière développée en interne par Eterna Tech. Deux caméras, l'une tournée vers la route et l'autre vers l'habitacle, analysent en temps réel le comportement du conducteur et l'environnement routier grâce à l'intelligence artificielle, et déclenchent une alerte immédiate en cas de danger."
+        },
+        {
+          "question": "Comment le dispositif s'installe-t-il dans un véhicule ?",
+          "answer": "L'installation est de type plug and play sur le pare-brise, sans intervention mécanique. Le dispositif s'alimente en 12V-24V, filme en 1080p et dispose de 128 Go de stockage local complétés par le cloud, avec une garantie de deux ans."
+        },
+        {
+          "question": "Où sont traitées les images filmées ?",
+          "answer": "Dans le véhicule. Le conducteur est averti immédiatement, et seuls les événements horodatés et les indicateurs agrégés remontent vers la plateforme web. Les flux vidéo bruts ne quittent pas le véhicule, ce qui limite le volume de données transmises et l'exposition des enregistrements."
+        },
+        {
+          "question": "Peut-on demander une démonstration ?",
+          "answer": "Oui. Choisissez « Demande de démonstration Amane Trig » dans le formulaire de contact, ou appelez-nous directement au +213 659 793 110. Nous organisons la démonstration à nos bureaux ou sur un de vos véhicules."
+        }
+      ]
+    },
+    {
+      "id": "accompagnement",
+      "label": "Labels & formation",
+      "icon": "Award",
+      "items": [
+        {
+          "question": "En quoi consiste votre accompagnement aux labels ?",
+          "answer": "Nous couvrons le label Startup et le label Projet innovant : vérification de l'éligibilité, constitution du dossier administratif, rédaction du dossier technique et du business plan, préparation du passage devant le comité, puis suivi jusqu'à l'obtention et au-delà."
+        },
+        {
+          "question": "Quels avantages apporte le label Startup ?",
+          "answer": "Des avantages fiscaux et des exonérations, l'accès aux dispositifs de financement dédiés, l'accompagnement par l'ANADE, des facilités bancaires et la mise en relation avec l'écosystème entrepreneurial algérien."
+        },
+        {
+          "question": "Vos formations se déroulent-elles en présentiel ou à distance ?",
+          "answer": "Les deux. En présentiel à Tlemcen ou à distance, en petits groupes pour favoriser la pratique. Le programme s'appuie sur des exercices et des jeux de données inspirés de vos cas réels, et se conclut par une évaluation et une attestation de formation."
+        },
+        {
+          "question": "Faut-il déjà un niveau technique pour suivre une formation ?",
+          "answer": "Non. Un test de positionnement et un entretien préalable permettent d'adapter le programme au niveau réel des participants, du débutant complet au profil confirmé, et de fixer un rythme compatible avec leur disponibilité."
+        }
+      ]
+    }
+  ]
+}

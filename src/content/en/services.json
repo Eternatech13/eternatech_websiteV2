@@ -14,6 +14,7 @@
       "category": "Development",
       "icon": "Code",
       "accent": "primary",
+      "image": "/images/services/developpement-web.jpg",
       "hero": {
         "title": "Web Development",
         "intro": "We build tailor-made, modern and fast websites that reflect your company's identity and serve your business goals."
@@ -83,6 +84,7 @@
       "category": "Development",
       "icon": "Smartphone",
       "accent": "secondary",
+      "image": "/images/services/applications-mobiles.jpg",
       "hero": {
         "title": "Mobile Applications",
         "intro": "Native or cross-platform iOS and Android app development, built to deliver an outstanding user experience."
@@ -144,6 +146,7 @@
       "category": "AI & Security",
       "icon": "BrainCircuit",
       "accent": "accent",
+      "image": "/images/services/ia-machine-learning.jpg",
       "hero": {
         "title": "AI & Machine Learning",
         "intro": "Custom artificial intelligence models, machine learning and federated learning for intelligent, innovative solutions."
@@ -213,6 +216,7 @@
       "category": "Design",
       "icon": "Box",
       "accent": "primary",
+      "image": "/images/services/modelisation-3d.jpg",
       "hero": {
         "title": "3D Modelling & Prototyping",
         "intro": "Professional 3D models and prototypes to visualise your projects before they are built."
@@ -274,6 +278,7 @@
       "category": "Design",
       "icon": "PenTool",
       "accent": "secondary",
+      "image": "/images/services/conception-graphique.jpg",
       "hero": {
         "title": "Graphic Design & Branding",
         "intro": "Distinctive visual identities and high-impact marketing material for your brand."
@@ -335,6 +340,7 @@
       "category": "Design",
       "icon": "LayoutTemplate",
       "accent": "accent",
+      "image": "/images/services/ui-ux.jpg",
       "hero": {
         "title": "UI/UX Design",
         "intro": "Intuitive user interface design and optimised user experiences."
@@ -396,6 +402,7 @@
       "category": "Guidance",
       "icon": "GraduationCap",
       "accent": "primary",
+      "image": "/images/services/formation-it.jpg",
       "hero": {
         "title": "IT Training",
         "intro": "Tailored training programmes to grow your teams' technology skills."
@@ -457,6 +464,7 @@
       "category": "Infrastructure",
       "icon": "Wifi",
       "accent": "secondary",
+      "image": "/images/services/reseaux-domestiques.jpg",
       "hero": {
         "title": "Home Network Installation",
         "intro": "Setup and installation of secure home networks for optimal connectivity."
@@ -518,6 +526,7 @@
       "category": "AI & Security",
       "icon": "ShieldCheck",
       "accent": "accent",
+      "image": "/images/services/blockchain-securite.jpg",
       "hero": {
         "title": "Blockchain & Data Security",
         "intro": "Innovative blockchain solutions and cybersecurity strategies to protect your digital assets."
@@ -579,6 +588,7 @@
       "category": "Development",
       "icon": "ShoppingCart",
       "accent": "primary",
+      "image": "/images/services/e-commerce.jpg",
       "hero": {
         "title": "E-Commerce",
         "intro": "High-performing online stores to grow your sales on the internet."
@@ -640,6 +650,7 @@
       "category": "Marketing",
       "icon": "Megaphone",
       "accent": "secondary",
+      "image": "/images/services/publicite.jpg",
       "hero": {
         "title": "Advertising Agency",
         "intro": "Digital marketing strategies and advertising campaigns to grow your visibility."
@@ -701,6 +712,7 @@
       "category": "Guidance",
       "icon": "Lightbulb",
       "accent": "accent",
+      "image": "/images/services/label-projet-innovant.jpg",
       "hero": {
         "title": "Innovative Project Label Filing",
         "intro": "End-to-end support to obtain the innovative project label and access funding."
@@ -762,6 +774,7 @@
       "category": "Guidance",
       "icon": "Award",
       "accent": "primary",
+      "image": "/images/services/label-startup.jpg",
       "hero": {
         "title": "Startup Label Filing",
         "intro": "End-to-end assistance to obtain the startup label and all the tax benefits that come with it."

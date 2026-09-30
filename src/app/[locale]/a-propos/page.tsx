@@ -76,7 +76,7 @@ export default async function AboutPage({
               <Badge tone="light" icon={Building2}>
                 {about.preview.badge}
               </Badge>
-              <h2 className="mt-5 text-2xl leading-tight font-light tracking-tight text-secondary sm:text-3xl md:text-4xl">
+              <h2 className="mt-5 text-2xl leading-tight font-bold tracking-tight text-secondary sm:text-3xl md:text-4xl">
                 <span>{about.preview.title}</span>
                 <span className="text-brand-gradient">{about.preview.titleAccent}</span>
               </h2>
@@ -105,7 +105,7 @@ export default async function AboutPage({
         <section className="bg-white py-20 md:py-24">
           <div className="container-page">
             <Reveal className="text-center">
-              <h2 className="text-2xl leading-tight font-light tracking-tight text-secondary sm:text-3xl md:text-4xl">
+              <h2 className="text-2xl leading-tight font-bold tracking-tight text-secondary sm:text-3xl md:text-4xl">
                 {about.history.title}
               </h2>
               <p className="mx-auto mt-4 max-w-xl text-sm leading-relaxed text-secondary/70 sm:text-base">
@@ -128,7 +128,7 @@ export default async function AboutPage({
                     {index + 1}
                   </span>
                   <div>
-                    <h3 className="text-base font-medium text-secondary">{step.title}</h3>
+                    <h3 className="text-base font-semibold text-secondary">{step.title}</h3>
                     <p className="mt-2 text-sm leading-relaxed text-secondary/70">
                       {step.description}
                     </p>
@@ -143,7 +143,7 @@ export default async function AboutPage({
         <section className="bg-surface py-20 md:py-24">
           <div className="container-page grid gap-10 lg:grid-cols-2 lg:items-center lg:gap-14">
             <Reveal>
-              <h2 className="text-2xl leading-tight font-light tracking-tight text-secondary sm:text-3xl">
+              <h2 className="text-2xl leading-tight font-bold tracking-tight text-secondary sm:text-3xl">
                 {about.location.title}
               </h2>
               <p className="mt-4 text-sm leading-relaxed text-secondary/70 sm:text-base">

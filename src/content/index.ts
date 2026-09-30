@@ -1,6 +1,7 @@
 import type { Locale } from '@/i18n/routing';
 import type {
   AboutContent,
+  FaqContent,
   LocaleContent,
   ServiceItem,
   ServicesContent,
@@ -13,16 +14,19 @@ import frSite from './fr/site.json';
 import frServices from './fr/services.json';
 import frSolutions from './fr/solutions.json';
 import frAbout from './fr/about.json';
+import frFaq from './fr/faq.json';
 
 import enSite from './en/site.json';
 import enServices from './en/services.json';
 import enSolutions from './en/solutions.json';
 import enAbout from './en/about.json';
+import enFaq from './en/faq.json';
 
 import arSite from './ar/site.json';
 import arServices from './ar/services.json';
 import arSolutions from './ar/solutions.json';
 import arAbout from './ar/about.json';
+import arFaq from './ar/faq.json';
 
 /**
  * Les imports JSON sont typés en littéraux larges (string au lieu des unions
@@ -36,18 +40,21 @@ const content: Record<Locale, LocaleContent> = {
     services: frServices as unknown as ServicesContent,
     solutions: frSolutions as unknown as SolutionsContent,
     about: frAbout as unknown as AboutContent,
+    faq: frFaq as unknown as FaqContent,
   },
   en: {
     site: enSite as unknown as SiteContent,
     services: enServices as unknown as ServicesContent,
     solutions: enSolutions as unknown as SolutionsContent,
     about: enAbout as unknown as AboutContent,
+    faq: enFaq as unknown as FaqContent,
   },
   ar: {
     site: arSite as unknown as SiteContent,
     services: arServices as unknown as ServicesContent,
     solutions: arSolutions as unknown as SolutionsContent,
     about: arAbout as unknown as AboutContent,
+    faq: arFaq as unknown as FaqContent,
   },
 };
 
@@ -69,6 +76,10 @@ export function getSolutions(locale: Locale): SolutionsContent {
 
 export function getAbout(locale: Locale): AboutContent {
   return content[locale].about;
+}
+
+export function getFaq(locale: Locale): FaqContent {
+  return content[locale].faq;
 }
 
 export function getServiceBySlug(

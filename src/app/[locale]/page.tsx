@@ -4,6 +4,7 @@ import type { Locale } from '@/i18n/routing';
 import { Header } from '@/components/layout/Header';
 import { AboutPreview } from '@/components/sections/AboutPreview';
 import { ContactSection } from '@/components/sections/ContactSection';
+import { FaqSection } from '@/components/sections/FaqSection';
 import { Hero } from '@/components/sections/Hero';
 import { ServicesSection } from '@/components/sections/ServicesSection';
 import { SolutionsSection } from '@/components/sections/SolutionsSection';
@@ -34,6 +35,7 @@ export default async function HomePage({
         <ServicesSection locale={typedLocale} />
         <SolutionsSection locale={typedLocale} />
         <AboutPreview locale={typedLocale} />
+        <FaqSection locale={typedLocale} />
         <ContactSection locale={typedLocale} withMap={false} />
       </main>
     </>

@@ -55,7 +55,7 @@ export async function StatsGrid({
               suffix={figure.suffix}
               screenReaderLabel={figure.screenReaderLabel}
               className={cn(
-                'mt-5 block text-4xl font-light sm:text-5xl',
+                'mt-5 block text-4xl font-bold sm:text-5xl',
                 isDark ? 'text-brand-gradient-light' : 'text-brand-gradient',
               )}
             />

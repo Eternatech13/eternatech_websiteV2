@@ -84,7 +84,7 @@ export default async function SolutionPage({
               <Badge tone="dark">
                 {t('badgePrefix')} · {solution.name}
               </Badge>
-              <h1 className="mt-5 text-3xl leading-tight font-light tracking-tight sm:text-4xl md:text-5xl">
+              <h1 className="mt-5 text-3xl leading-tight font-bold tracking-tight sm:text-4xl md:text-5xl">
                 <span className="text-brand-gradient-light">{solution.title}</span>
               </h1>
               <p className="mt-5 text-base leading-relaxed text-on-dark sm:text-lg">
@@ -116,7 +116,7 @@ export default async function SolutionPage({
                 {detail.longDescription}
               </p>
 
-              <h2 className="mt-12 text-2xl leading-tight font-light text-secondary sm:text-3xl">
+              <h2 className="mt-12 text-2xl leading-tight font-bold text-secondary sm:text-3xl">
                 {t('capabilitiesTitle')}
               </h2>
               <RevealGroup as="ul" stagger={0.08} className="mt-8 grid gap-6 sm:grid-cols-2">
@@ -130,7 +130,7 @@ export default async function SolutionPage({
                       >
                         <Icon className="size-5" />
                       </span>
-                      <h3 className="mt-4 text-base font-medium text-secondary">
+                      <h3 className="mt-4 text-base font-semibold text-secondary">
                         {capability.title}
                       </h3>
                       <p className="mt-2 text-sm leading-relaxed text-secondary/70">
@@ -145,7 +145,7 @@ export default async function SolutionPage({
             {/* Caractéristiques techniques et public visé */}
             <Reveal className="space-y-8">
               <div className="rounded-card border border-secondary/10 bg-surface p-6 sm:p-8">
-                <h2 className="text-xl font-medium text-secondary">{t('specsTitle')}</h2>
+                <h2 className="text-xl font-bold text-secondary">{t('specsTitle')}</h2>
                 <dl className="mt-5 space-y-3.5 text-sm">
                   {detail.specs.map((spec) => (
                     <div
@@ -160,7 +160,7 @@ export default async function SolutionPage({
               </div>
 
               <div className="rounded-card border border-secondary/10 bg-white p-6 shadow-sm sm:p-8">
-                <h2 className="text-xl font-medium text-secondary">{detail.audience.title}</h2>
+                <h2 className="text-xl font-bold text-secondary">{detail.audience.title}</h2>
                 <ul className="mt-5 space-y-3">
                   {detail.audience.items.map((item) => (
                     <li
@@ -187,7 +187,7 @@ export default async function SolutionPage({
         <section className="bg-white py-20 md:py-24">
           <div className="container-page grid gap-12 lg:grid-cols-2 lg:gap-16">
             <Reveal>
-              <h2 className="text-2xl leading-tight font-light text-secondary sm:text-3xl">
+              <h2 className="text-2xl leading-tight font-bold text-secondary sm:text-3xl">
                 {t('benefitsTitle')}
               </h2>
               <ul className="mt-8 space-y-3.5">

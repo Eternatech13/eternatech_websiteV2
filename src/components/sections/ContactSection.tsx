@@ -50,7 +50,7 @@ export async function ContactSection({
         <div className="mt-14 grid gap-10 lg:grid-cols-[1.2fr_1fr] lg:gap-14">
           {/* Formulaire */}
           <Reveal className="rounded-card border border-secondary/10 bg-white p-6 shadow-sm sm:p-8">
-            <h3 className="text-xl font-medium text-secondary">{t('formTitle')}</h3>
+            <h3 className="text-xl font-bold text-secondary">{t('formTitle')}</h3>
             <div className="mt-6">
               <ContactForm subjects={contact.subjects} />
             </div>
@@ -59,7 +59,7 @@ export async function ContactSection({
           {/* Coordonnées */}
           <Reveal className="space-y-8">
             <div className="rounded-card border border-secondary/10 bg-white p-6 shadow-sm sm:p-8">
-              <h3 className="text-xl font-medium text-secondary">{t('infoTitle')}</h3>
+              <h3 className="text-xl font-bold text-secondary">{t('infoTitle')}</h3>
 
               <dl className="mt-6 space-y-6 text-sm">
                 <div className="flex items-start gap-3.5">
@@ -138,7 +138,7 @@ export async function ContactSection({
 
             {withMap && (
               <div>
-                <h3 className="mb-4 text-xl font-medium text-secondary">{t('mapTitle')}</h3>
+                <h3 className="mb-4 text-xl font-bold text-secondary">{t('mapTitle')}</h3>
                 <ContactMap embedUrl={contact.mapsEmbedUrl} />
               </div>
             )}

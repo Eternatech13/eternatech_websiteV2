@@ -22,7 +22,7 @@ export function CtaBand({
         <Reveal className="relative overflow-hidden rounded-card bg-brand-gradient p-8 text-center sm:p-12">
           <div aria-hidden="true" className="absolute inset-0 bg-dot-grid opacity-60" />
           <div className="relative">
-            <h2 className="text-2xl leading-tight font-light text-white sm:text-3xl">{title}</h2>
+            <h2 className="text-2xl leading-tight font-bold text-white sm:text-3xl">{title}</h2>
             <p className="mx-auto mt-4 max-w-xl text-sm leading-relaxed text-white/85 sm:text-base">
               {body}
             </p>

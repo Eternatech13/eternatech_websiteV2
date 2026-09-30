@@ -179,6 +179,30 @@ export interface ValueItem {
   icon: string;
 }
 
+export interface FaqItem {
+  question: string;
+  answer: string;
+}
+
+export interface FaqCategory {
+  id: string;
+  label: string;
+  /** Clé d'icône Lucide, résolue par src/lib/icons.ts. */
+  icon: string;
+  items: FaqItem[];
+}
+
+/**
+ * Foire aux questions, organisée par thème.
+ * Section ajoutée au périmètre en complément du cahier des charges : elle
+ * répond aux objections juste avant l'appel à l'action de contact, et alimente
+ * les données structurées FAQPage pour le référencement (§ 11 — SEO).
+ */
+export interface FaqContent {
+  intro: SectionIntro;
+  categories: FaqCategory[];
+}
+
 export interface AboutContent {
   preview: {
     badge: string;
@@ -225,6 +249,13 @@ export interface AboutContent {
 
 export interface HeroContent {
   badge: string;
+  /**
+   * Image de fond de la Hero, assombrie à 70 % de luminosité comme dans le
+   * modèle Hero4 (§ 6.2). Le visuel actuel est un fond de marque de
+   * remplacement : le remplacer par une photographie fournie par Eterna Tech
+   * ne demande que de changer ce chemin (§ 6.4).
+   */
+  backgroundImage?: string;
   titleLine1: string;
   titleLine2Start: string;
   titleLine2Accent: string;
@@ -290,4 +321,5 @@ export interface LocaleContent {
   services: ServicesContent;
   solutions: SolutionsContent;
   about: AboutContent;
+  faq: FaqContent;
 }

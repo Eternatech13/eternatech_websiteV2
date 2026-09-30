@@ -38,7 +38,7 @@ export async function MissionValues({ about }: { about: AboutContent }) {
               <Rocket className="size-7" />
             </span>
             <div>
-              <h2 className="text-2xl font-light text-white">{mission.title}</h2>
+              <h2 className="text-2xl font-bold text-white">{mission.title}</h2>
               <p className="text-sm font-medium text-accent">{mission.subtitle}</p>
             </div>
           </div>
@@ -63,7 +63,7 @@ export async function MissionValues({ about }: { about: AboutContent }) {
 
         {/* Liste des valeurs */}
         <div>
-          <Reveal as="h2" className="flex items-center gap-3 text-xl font-medium text-white">
+          <Reveal as="h2" className="flex items-center gap-3 text-xl font-bold text-white">
             <span aria-hidden="true" className="h-1 w-8 rounded-full bg-brand-gradient-short" />
             {values.title}
           </Reveal>
@@ -84,7 +84,7 @@ export async function MissionValues({ about }: { about: AboutContent }) {
                     <Icon className="size-5" />
                   </span>
                   <div>
-                    <h3 className="text-base font-medium text-white transition-colors group-hover:text-accent">
+                    <h3 className="text-base font-semibold text-white transition-colors group-hover:text-accent">
                       {value.title}
                     </h3>
                     <p className="mt-1.5 text-sm leading-relaxed text-on-dark">

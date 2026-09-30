@@ -49,7 +49,7 @@ export function ServiceCard({ service, priority = false }: { service: ServiceIte
           {service.category}
         </p>
 
-        <h3 className="mt-3 text-lg leading-snug font-medium text-secondary transition-colors group-hover:text-primary">
+        <h3 className="mt-3 text-lg leading-snug font-semibold text-secondary transition-colors group-hover:text-primary">
           {service.name}
         </h3>
 

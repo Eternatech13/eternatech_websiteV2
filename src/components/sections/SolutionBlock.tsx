@@ -39,7 +39,7 @@ export async function SolutionBlock({ solution }: { solution: SolutionItem }) {
           {t('badgePrefix')} · {solution.name}
         </Badge>
 
-        <h3 className="mt-5 text-2xl leading-tight font-light tracking-tight text-secondary sm:text-3xl md:text-4xl">
+        <h3 className="mt-5 text-2xl leading-tight font-bold tracking-tight text-secondary sm:text-3xl md:text-4xl">
           {solution.title}
         </h3>
 

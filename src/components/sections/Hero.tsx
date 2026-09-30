@@ -45,10 +45,10 @@ export async function Hero({ locale }: { locale: Locale }) {
             </CssReveal>
 
             <CssReveal as="h1" delay={0.35}>
-              <span className="block text-4xl leading-tight font-normal tracking-tight sm:text-5xl md:text-6xl lg:text-7xl">
+              <span className="block text-4xl leading-tight font-bold tracking-tight sm:text-5xl md:text-6xl lg:text-7xl">
                 {hero.titleLine1}
               </span>
-              <span className="block text-4xl leading-tight font-normal tracking-tight sm:text-5xl md:text-6xl lg:text-7xl">
+              <span className="block text-4xl leading-tight font-bold tracking-tight sm:text-5xl md:text-6xl lg:text-7xl">
                 {hero.titleLine2Start}
                 <span className="text-brand-gradient">{hero.titleLine2Accent}</span>
               </span>
@@ -57,7 +57,7 @@ export async function Hero({ locale }: { locale: Locale }) {
             <CssReveal
               as="p"
               delay={0.5}
-              className="mt-6 max-w-xl text-base leading-relaxed font-light text-on-dark sm:text-lg"
+              className="mt-6 max-w-xl text-base leading-relaxed font-normal text-on-dark sm:text-lg"
             >
               {hero.description.map((segment, index) =>
                 segment.strong ? (
@@ -100,7 +100,7 @@ export async function Hero({ locale }: { locale: Locale }) {
                         value={figure.number}
                         suffix={figure.suffix}
                         screenReaderLabel={figure.screenReaderLabel}
-                        className="text-xl font-light tracking-tight text-white sm:text-3xl"
+                        className="text-xl font-bold tracking-tight text-white sm:text-3xl"
                       />
                       <span className="text-sm text-on-dark" aria-hidden="true">
                         {figure.label}

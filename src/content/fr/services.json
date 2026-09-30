@@ -14,6 +14,7 @@
       "category": "Développement",
       "icon": "Code",
       "accent": "primary",
+      "image": "/images/services/developpement-web.jpg",
       "hero": {
         "title": "Développement Web",
         "intro": "Nous créons des sites web sur mesure, modernes et performants qui reflètent l'identité de votre entreprise et répondent à vos objectifs commerciaux."
@@ -83,6 +84,7 @@
       "category": "Développement",
       "icon": "Smartphone",
       "accent": "secondary",
+      "image": "/images/services/applications-mobiles.jpg",
       "hero": {
         "title": "Applications Mobiles",
         "intro": "Développement d'applications iOS et Android natives ou cross-platform pour offrir une expérience utilisateur exceptionnelle."
@@ -144,6 +146,7 @@
       "category": "IA & Sécurité",
       "icon": "BrainCircuit",
       "accent": "accent",
+      "image": "/images/services/ia-machine-learning.jpg",
       "hero": {
         "title": "IA & Machine Learning",
         "intro": "Création de modèles d'intelligence artificielle sur mesure, apprentissage automatique et apprentissage fédéré pour des solutions intelligentes et innovantes."
@@ -213,6 +216,7 @@
       "category": "Design",
       "icon": "Box",
       "accent": "primary",
+      "image": "/images/services/modelisation-3d.jpg",
       "hero": {
         "title": "Modélisation 3D & Prototypage",
         "intro": "Création de modèles 3D professionnels et prototypes pour visualiser vos projets avant leur réalisation."
@@ -274,6 +278,7 @@
       "category": "Design",
       "icon": "PenTool",
       "accent": "secondary",
+      "image": "/images/services/conception-graphique.jpg",
       "hero": {
         "title": "Conception Graphique & Design",
         "intro": "Création d'identités visuelles uniques et de supports marketing percutants pour votre marque."
@@ -335,6 +340,7 @@
       "category": "Design",
       "icon": "LayoutTemplate",
       "accent": "accent",
+      "image": "/images/services/ui-ux.jpg",
       "hero": {
         "title": "UI/UX Design",
         "intro": "Conception d'interfaces utilisateur intuitives et d'expériences utilisateur optimisées."
@@ -396,6 +402,7 @@
       "category": "Accompagnement",
       "icon": "GraduationCap",
       "accent": "primary",
+      "image": "/images/services/formation-it.jpg",
       "hero": {
         "title": "Formation IT",
         "intro": "Programmes de formation personnalisés pour développer les compétences technologiques de vos équipes."
@@ -457,6 +464,7 @@
       "category": "Infrastructure",
       "icon": "Wifi",
       "accent": "secondary",
+      "image": "/images/services/reseaux-domestiques.jpg",
       "hero": {
         "title": "Installation Réseaux Domestiques",
         "intro": "Configuration et installation de réseaux domestiques sécurisés pour une connectivité optimale."
@@ -518,6 +526,7 @@
       "category": "IA & Sécurité",
       "icon": "ShieldCheck",
       "accent": "accent",
+      "image": "/images/services/blockchain-securite.jpg",
       "hero": {
         "title": "Blockchain & Sécurité des Données",
         "intro": "Solutions blockchain innovantes et stratégies de cybersécurité pour protéger vos actifs numériques."
@@ -579,6 +588,7 @@
       "category": "Développement",
       "icon": "ShoppingCart",
       "accent": "primary",
+      "image": "/images/services/e-commerce.jpg",
       "hero": {
         "title": "E-Commerce",
         "intro": "Création de boutiques en ligne performantes pour développer vos ventes sur internet."
@@ -640,6 +650,7 @@
       "category": "Marketing",
       "icon": "Megaphone",
       "accent": "secondary",
+      "image": "/images/services/publicite.jpg",
       "hero": {
         "title": "Agence de Publicité",
         "intro": "Stratégies marketing digitales et campagnes publicitaires pour accroître votre visibilité."
@@ -701,6 +712,7 @@
       "category": "Accompagnement",
       "icon": "Lightbulb",
       "accent": "accent",
+      "image": "/images/services/label-projet-innovant.jpg",
       "hero": {
         "title": "Dépôt Label Projet Innovant",
         "intro": "Accompagnement complet pour l'obtention du label projet innovant et accès aux financements."
@@ -762,6 +774,7 @@
       "category": "Accompagnement",
       "icon": "Award",
       "accent": "primary",
+      "image": "/images/services/label-startup.jpg",
       "hero": {
         "title": "Dépôt Label Startup",
         "intro": "Assistance complète pour l'obtention du label startup et tous les avantages fiscaux associés."

@@ -31,7 +31,7 @@ export async function ExpertiseSection({ expertise }: { expertise: ExpertiseCont
         >
           <Sparkles className="size-5" />
         </span>
-        <h3 className="text-xl font-medium text-secondary sm:text-2xl">{intro.title}</h3>
+        <h3 className="text-xl font-bold text-secondary sm:text-2xl">{intro.title}</h3>
         <span
           aria-hidden="true"
           className="hidden h-px flex-1 bg-gradient-to-r from-accent to-transparent md:block rtl:bg-gradient-to-l"
@@ -57,7 +57,7 @@ export async function ExpertiseSection({ expertise }: { expertise: ExpertiseCont
                 <Icon className="size-6" />
               </span>
 
-              <h4 className="mt-5 text-lg font-medium text-secondary">{item.title}</h4>
+              <h4 className="mt-5 text-lg font-semibold text-secondary">{item.title}</h4>
               <p className="mt-2.5 text-sm leading-relaxed text-secondary/70">{item.description}</p>
 
               <ul aria-label={t('keyPointsLabel')} className="mt-5 space-y-2">

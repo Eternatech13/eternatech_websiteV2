@@ -18,7 +18,7 @@ export async function LegalSections({
         <div className="mx-auto max-w-3xl space-y-10">
           {sections.map((section, index) => (
             <Reveal as="section" key={section.title} delay={index * 0.04}>
-              <h2 className="text-xl font-medium text-secondary sm:text-2xl">{section.title}</h2>
+              <h2 className="text-xl font-bold text-secondary sm:text-2xl">{section.title}</h2>
               <p className="mt-3 text-sm leading-relaxed text-secondary/75 sm:text-base">
                 {section.body}
               </p>

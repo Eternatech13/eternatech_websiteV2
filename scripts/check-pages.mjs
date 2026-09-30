@@ -26,6 +26,7 @@ const paths = [
   '/services/label-startup',
   '/solutions',
   '/solutions/amane-trig',
+  '/faq',
   '/a-propos',
   '/contact',
   '/mentions-legales',

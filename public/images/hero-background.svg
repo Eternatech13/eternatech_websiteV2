@@ -1,0 +1,81 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 1080" width="1920" height="1080" preserveAspectRatio="xMidYMid slice" role="presentation">
+  <!--
+    Fond de la Hero section (§ 6.1 point 7 et § 6.2).
+
+    Le modèle Hero4 utilise une photographie sombre à 70 % de luminosité. Aucune
+    image n'ayant encore été fournie (§ 6.4), ce visuel de remplacement en tient
+    le rôle aux dimensions finales : base #0b305a très assombrie, halos #1372a2
+    et #388caf, trame technique et vignettage.
+
+    Pour le remplacer par une photographie, renseigner `hero.backgroundImage`
+    dans src/content/{fr,en,ar}/site.json.
+  -->
+  <defs>
+    <radialGradient id="glowPrimary" cx="18%" cy="20%" r="62%">
+      <stop offset="0%" stop-color="#1372a2" stop-opacity="0.78" />
+      <stop offset="55%" stop-color="#1372a2" stop-opacity="0.22" />
+      <stop offset="100%" stop-color="#1372a2" stop-opacity="0" />
+    </radialGradient>
+
+    <radialGradient id="glowAccent" cx="84%" cy="74%" r="55%">
+      <stop offset="0%" stop-color="#388caf" stop-opacity="0.55" />
+      <stop offset="60%" stop-color="#388caf" stop-opacity="0.14" />
+      <stop offset="100%" stop-color="#388caf" stop-opacity="0" />
+    </radialGradient>
+
+    <radialGradient id="glowDeep" cx="52%" cy="46%" r="70%">
+      <stop offset="0%" stop-color="#0b305a" stop-opacity="0.85" />
+      <stop offset="100%" stop-color="#051526" stop-opacity="0.95" />
+    </radialGradient>
+
+    <linearGradient id="strokeBrand" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#388caf" stop-opacity="0.55" />
+      <stop offset="100%" stop-color="#1372a2" stop-opacity="0" />
+    </linearGradient>
+
+    <pattern id="grid" width="64" height="64" patternUnits="userSpaceOnUse">
+      <path d="M64 0H0v64" fill="none" stroke="#ffffff" stroke-opacity="0.035" stroke-width="1" />
+    </pattern>
+
+    <radialGradient id="vignette" cx="50%" cy="46%" r="72%">
+      <stop offset="55%" stop-color="#000000" stop-opacity="0" />
+      <stop offset="100%" stop-color="#000814" stop-opacity="0.72" />
+    </radialGradient>
+  </defs>
+
+  <!-- Base sombre -->
+  <rect width="1920" height="1080" fill="#071f3b" />
+  <rect width="1920" height="1080" fill="url(#glowDeep)" />
+
+  <!-- Trame technique -->
+  <rect width="1920" height="1080" fill="url(#grid)" />
+
+  <!-- Halos de marque -->
+  <rect width="1920" height="1080" fill="url(#glowPrimary)" />
+  <rect width="1920" height="1080" fill="url(#glowAccent)" />
+
+  <!-- Lignes de circuit -->
+  <g fill="none" stroke="url(#strokeBrand)" stroke-width="1.5">
+    <path d="M-40 760 L360 760 L520 600 L900 600 L1040 460 L1500 460 L1680 280 L1960 280" />
+    <path d="M-40 880 L240 880 L420 700 L760 700 L940 520 L1360 520" stroke-opacity="0.6" />
+    <path d="M1960 900 L1560 900 L1400 740 L1080 740 L920 900 L540 900" stroke-opacity="0.45" />
+  </g>
+
+  <!-- Nœuds du réseau -->
+  <g fill="#388caf">
+    <circle cx="360" cy="760" r="4" fill-opacity="0.85" />
+    <circle cx="900" cy="600" r="3.5" fill-opacity="0.7" />
+    <circle cx="1500" cy="460" r="4" fill-opacity="0.8" />
+    <circle cx="760" cy="700" r="3" fill-opacity="0.6" />
+    <circle cx="1400" cy="740" r="3.5" fill-opacity="0.55" />
+    <circle cx="240" cy="880" r="3" fill-opacity="0.5" />
+  </g>
+  <g fill="#1372a2">
+    <circle cx="520" cy="600" r="5" fill-opacity="0.7" />
+    <circle cx="1040" cy="460" r="4.5" fill-opacity="0.65" />
+    <circle cx="1680" cy="280" r="4" fill-opacity="0.6" />
+  </g>
+
+  <!-- Vignettage, pour que le texte reste lisible au premier plan -->
+  <rect width="1920" height="1080" fill="url(#vignette)" />
+</svg>

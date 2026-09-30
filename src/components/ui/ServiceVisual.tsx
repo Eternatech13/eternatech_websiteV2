@@ -38,14 +38,23 @@ export function ServiceVisual({
 }: ServiceVisualProps) {
   if (image) {
     return (
-      <div className={cn('relative h-60 w-full overflow-hidden sm:h-64', className)}>
+      <div className={cn('relative h-60 w-full overflow-hidden bg-secondary sm:h-64', className)}>
         <Image
           src={image}
           alt={alt}
           fill
           sizes="(min-width: 1024px) 33vw, (min-width: 768px) 50vw, 100vw"
           priority={priority}
-          className="object-cover transition-transform duration-500 group-hover:scale-105"
+          className="object-cover object-center transition-transform duration-500 group-hover:scale-105"
+        />
+        {/*
+          Voile teinté #0b305a : il unifie des photographies de provenances et de
+          cadrages différents, et garantit le contraste de la pastille d'icône
+          posée par-dessus (§ 7.2).
+        */}
+        <div
+          aria-hidden="true"
+          className="absolute inset-0 bg-gradient-to-t from-secondary/55 via-secondary/10 to-secondary/25 transition-opacity duration-500 group-hover:opacity-75"
         />
       </div>
     );
